@@ -1,0 +1,7085 @@
+{
+  "schemaVersion": 1,
+  "modelVersion": "0.4.0",
+  "generatedAt": "2026-09-28T00:53:18.224Z",
+  "seed": "agency-lab-0001",
+  "runs": 1000,
+  "lives": 120000,
+  "daysPerWorld": 364,
+  "mode": "base",
+  "parameters": {
+    "startingCash": 1400,
+    "monthlyRent": 980,
+    "hourlyWage": 17.25,
+    "weeklyHours": 36,
+    "rentIncreasePct": 0.06,
+    "shockFrequency": 1.4,
+    "maxJobLosses": 2,
+    "recoveryBarrierChance": 0.55
+  },
+  "modules": {
+    "transportation": false,
+    "health": false,
+    "access": false,
+    "education": false
+  },
+  "summaries": {
+    "finalStablePct": {
+      "mean": 89.71549999999998,
+      "median": 90,
+      "standardDeviation": 2.68367133640501,
+      "confidenceLow": 89.54916432727876,
+      "confidenceHigh": 89.8818356727212,
+      "p10": 85.8,
+      "p90": 93.3,
+      "min": 80,
+      "max": 96.7
+    },
+    "everAnyFailurePct": {
+      "mean": 52.88429999999991,
+      "median": 52.5,
+      "standardDeviation": 4.471285710610082,
+      "confidenceLow": 52.60716684046802,
+      "confidenceHigh": 53.1614331595318,
+      "p10": 47.5,
+      "p90": 58.3,
+      "min": 39.2,
+      "max": 69.2
+    },
+    "everCompoundFailurePct": {
+      "mean": 49.79570000000013,
+      "median": 50,
+      "standardDeviation": 4.468861402217823,
+      "confidenceLow": 49.51871710065914,
+      "confidenceHigh": 50.072682899341125,
+      "p10": 44.2,
+      "p90": 55.08000000000002,
+      "min": 33.3,
+      "max": 65
+    },
+    "chronicFailurePct": {
+      "mean": 4.384799999999999,
+      "median": 4.2,
+      "standardDeviation": 1.8687164207179843,
+      "confidenceLow": 4.268975756267644,
+      "confidenceHigh": 4.5006242437323545,
+      "p10": 2.5,
+      "p90": 6.7,
+      "min": 0,
+      "max": 12.5
+    },
+    "everDisplacedPct": {
+      "mean": 8.689300000000005,
+      "median": 8.3,
+      "standardDeviation": 2.4637949987358425,
+      "confidenceLow": 8.53659240387876,
+      "confidenceHigh": 8.842007596121249,
+      "p10": 5.8,
+      "p90": 11.7,
+      "min": 2.5,
+      "max": 18.3
+    }
+  },
+  "outcomes": [
+    {
+      "finalStablePct": 85,
+      "everAnyFailurePct": 52.5,
+      "everCompoundFailurePct": 50.8,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 85,
+      "everAnyFailurePct": 61.7,
+      "everCompoundFailurePct": 57.5,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 87.5,
+      "everAnyFailurePct": 49.2,
+      "everCompoundFailurePct": 47.5,
+      "chronicFailurePct": 7.5,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 87.5,
+      "everAnyFailurePct": 56.7,
+      "everCompoundFailurePct": 53.3,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 84.2,
+      "everAnyFailurePct": 55,
+      "everCompoundFailurePct": 51.7,
+      "chronicFailurePct": 7.5,
+      "everDisplacedPct": 10.8
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 61.7,
+      "everCompoundFailurePct": 57.5,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 87.5,
+      "everAnyFailurePct": 50.8,
+      "everCompoundFailurePct": 47.5,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 5.8
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 50.8,
+      "everCompoundFailurePct": 45.8,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 10.8
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 50,
+      "everCompoundFailurePct": 45.8,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 46.7,
+      "everCompoundFailurePct": 44.2,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 5.8
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 60.8,
+      "everCompoundFailurePct": 58.3,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 10.8
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 58.3,
+      "everCompoundFailurePct": 55,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 5.8
+    },
+    {
+      "finalStablePct": 84.2,
+      "everAnyFailurePct": 69.2,
+      "everCompoundFailurePct": 65,
+      "chronicFailurePct": 7.5,
+      "everDisplacedPct": 15
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 51.7,
+      "everCompoundFailurePct": 48.3,
+      "chronicFailurePct": 7.5,
+      "everDisplacedPct": 10.8
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 48.3,
+      "everCompoundFailurePct": 45.8,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 5.8
+    },
+    {
+      "finalStablePct": 88.3,
+      "everAnyFailurePct": 55.8,
+      "everCompoundFailurePct": 50.8,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 12.5
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 53.3,
+      "everCompoundFailurePct": 48.3,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 53.3,
+      "everCompoundFailurePct": 49.2,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 88.3,
+      "everAnyFailurePct": 56.7,
+      "everCompoundFailurePct": 53.3,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 10.8
+    },
+    {
+      "finalStablePct": 87.5,
+      "everAnyFailurePct": 49.2,
+      "everCompoundFailurePct": 47.5,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 5.8
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 48.3,
+      "everCompoundFailurePct": 43.3,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 92.5,
+      "everAnyFailurePct": 51.7,
+      "everCompoundFailurePct": 49.2,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 87.5,
+      "everAnyFailurePct": 61.7,
+      "everCompoundFailurePct": 57.5,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 87.5,
+      "everAnyFailurePct": 54.2,
+      "everCompoundFailurePct": 50,
+      "chronicFailurePct": 7.5,
+      "everDisplacedPct": 11.7
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 46.7,
+      "everCompoundFailurePct": 42.5,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 87.5,
+      "everAnyFailurePct": 51.7,
+      "everCompoundFailurePct": 49.2,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 50.8,
+      "everCompoundFailurePct": 47.5,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 93.3,
+      "everAnyFailurePct": 50.8,
+      "everCompoundFailurePct": 47.5,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 4.2
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 45,
+      "everCompoundFailurePct": 44.2,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 86.7,
+      "everAnyFailurePct": 52.5,
+      "everCompoundFailurePct": 50,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 50,
+      "everCompoundFailurePct": 48.3,
+      "chronicFailurePct": 1.7,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 57.5,
+      "everCompoundFailurePct": 53.3,
+      "chronicFailurePct": 6.7,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 50,
+      "everCompoundFailurePct": 44.2,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 92.5,
+      "everAnyFailurePct": 55,
+      "everCompoundFailurePct": 53.3,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 55,
+      "everCompoundFailurePct": 50.8,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 53.3,
+      "everCompoundFailurePct": 51.7,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 86.7,
+      "everAnyFailurePct": 60,
+      "everCompoundFailurePct": 57.5,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 85.8,
+      "everAnyFailurePct": 55,
+      "everCompoundFailurePct": 51.7,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 11.7
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 50.8,
+      "everCompoundFailurePct": 49.2,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 11.7
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 51.7,
+      "everCompoundFailurePct": 48.3,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 52.5,
+      "everCompoundFailurePct": 50.8,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 53.3,
+      "everCompoundFailurePct": 51.7,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 88.3,
+      "everAnyFailurePct": 51.7,
+      "everCompoundFailurePct": 50,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 92.5,
+      "everAnyFailurePct": 53.3,
+      "everCompoundFailurePct": 50,
+      "chronicFailurePct": 1.7,
+      "everDisplacedPct": 5
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 50.8,
+      "everCompoundFailurePct": 47.5,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 55,
+      "everCompoundFailurePct": 49.2,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 50,
+      "everCompoundFailurePct": 50,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 85,
+      "everAnyFailurePct": 52.5,
+      "everCompoundFailurePct": 47.5,
+      "chronicFailurePct": 6.7,
+      "everDisplacedPct": 10.8
+    },
+    {
+      "finalStablePct": 94.2,
+      "everAnyFailurePct": 51.7,
+      "everCompoundFailurePct": 45.8,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 4.2
+    },
+    {
+      "finalStablePct": 85,
+      "everAnyFailurePct": 52.5,
+      "everCompoundFailurePct": 50,
+      "chronicFailurePct": 6.7,
+      "everDisplacedPct": 12.5
+    },
+    {
+      "finalStablePct": 92.5,
+      "everAnyFailurePct": 54.2,
+      "everCompoundFailurePct": 51.7,
+      "chronicFailurePct": 0.8,
+      "everDisplacedPct": 5.8
+    },
+    {
+      "finalStablePct": 84.2,
+      "everAnyFailurePct": 56.7,
+      "everCompoundFailurePct": 50,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 48.3,
+      "everCompoundFailurePct": 40.8,
+      "chronicFailurePct": 7.5,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 60,
+      "everCompoundFailurePct": 56.7,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 47.5,
+      "everCompoundFailurePct": 44.2,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 48.3,
+      "everCompoundFailurePct": 46.7,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 50,
+      "everCompoundFailurePct": 46.7,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 56.7,
+      "everCompoundFailurePct": 55,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 50,
+      "everCompoundFailurePct": 47.5,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 93.3,
+      "everAnyFailurePct": 41.7,
+      "everCompoundFailurePct": 39.2,
+      "chronicFailurePct": 0.8,
+      "everDisplacedPct": 5
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 56.7,
+      "everCompoundFailurePct": 50.8,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 87.5,
+      "everAnyFailurePct": 55.8,
+      "everCompoundFailurePct": 52.5,
+      "chronicFailurePct": 10,
+      "everDisplacedPct": 13.3
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 47.5,
+      "everCompoundFailurePct": 44.2,
+      "chronicFailurePct": 1.7,
+      "everDisplacedPct": 5.8
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 54.2,
+      "everCompoundFailurePct": 50.8,
+      "chronicFailurePct": 6.7,
+      "everDisplacedPct": 13.3
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 57.5,
+      "everCompoundFailurePct": 50.8,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 88.3,
+      "everAnyFailurePct": 47.5,
+      "everCompoundFailurePct": 44.2,
+      "chronicFailurePct": 6.7,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 85.8,
+      "everAnyFailurePct": 58.3,
+      "everCompoundFailurePct": 54.2,
+      "chronicFailurePct": 6.7,
+      "everDisplacedPct": 10.8
+    },
+    {
+      "finalStablePct": 93.3,
+      "everAnyFailurePct": 51.7,
+      "everCompoundFailurePct": 48.3,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 93.3,
+      "everAnyFailurePct": 48.3,
+      "everCompoundFailurePct": 46.7,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 86.7,
+      "everAnyFailurePct": 50.8,
+      "everCompoundFailurePct": 48.3,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 13.3
+    },
+    {
+      "finalStablePct": 87.5,
+      "everAnyFailurePct": 49.2,
+      "everCompoundFailurePct": 47.5,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 92.5,
+      "everAnyFailurePct": 55.8,
+      "everCompoundFailurePct": 50.8,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 52.5,
+      "everCompoundFailurePct": 50,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 48.3,
+      "everCompoundFailurePct": 45.8,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 85,
+      "everAnyFailurePct": 58.3,
+      "everCompoundFailurePct": 55,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 11.7
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 50,
+      "everCompoundFailurePct": 49.2,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 85.8,
+      "everAnyFailurePct": 48.3,
+      "everCompoundFailurePct": 45.8,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 86.7,
+      "everAnyFailurePct": 56.7,
+      "everCompoundFailurePct": 53.3,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 11.7
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 58.3,
+      "everCompoundFailurePct": 55.8,
+      "chronicFailurePct": 9.2,
+      "everDisplacedPct": 10.8
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 47.5,
+      "everCompoundFailurePct": 42.5,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 88.3,
+      "everAnyFailurePct": 60.8,
+      "everCompoundFailurePct": 55,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 87.5,
+      "everAnyFailurePct": 54.2,
+      "everCompoundFailurePct": 49.2,
+      "chronicFailurePct": 7.5,
+      "everDisplacedPct": 15.8
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 46.7,
+      "everCompoundFailurePct": 45,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 94.2,
+      "everAnyFailurePct": 54.2,
+      "everCompoundFailurePct": 50,
+      "chronicFailurePct": 1.7,
+      "everDisplacedPct": 5.8
+    },
+    {
+      "finalStablePct": 92.5,
+      "everAnyFailurePct": 45,
+      "everCompoundFailurePct": 43.3,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 5.8
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 49.2,
+      "everCompoundFailurePct": 47.5,
+      "chronicFailurePct": 1.7,
+      "everDisplacedPct": 5
+    },
+    {
+      "finalStablePct": 92.5,
+      "everAnyFailurePct": 54.2,
+      "everCompoundFailurePct": 53.3,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 51.7,
+      "everCompoundFailurePct": 50.8,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 85.8,
+      "everAnyFailurePct": 55,
+      "everCompoundFailurePct": 51.7,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 88.3,
+      "everAnyFailurePct": 49.2,
+      "everCompoundFailurePct": 47.5,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 11.7
+    },
+    {
+      "finalStablePct": 88.3,
+      "everAnyFailurePct": 49.2,
+      "everCompoundFailurePct": 48.3,
+      "chronicFailurePct": 7.5,
+      "everDisplacedPct": 10.8
+    },
+    {
+      "finalStablePct": 85.8,
+      "everAnyFailurePct": 60.8,
+      "everCompoundFailurePct": 60,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 87.5,
+      "everAnyFailurePct": 54.2,
+      "everCompoundFailurePct": 53.3,
+      "chronicFailurePct": 6.7,
+      "everDisplacedPct": 10.8
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 54.2,
+      "everCompoundFailurePct": 50,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 50.8,
+      "everCompoundFailurePct": 49.2,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 84.2,
+      "everAnyFailurePct": 54.2,
+      "everCompoundFailurePct": 49.2,
+      "chronicFailurePct": 9.2,
+      "everDisplacedPct": 14.2
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 50.8,
+      "everCompoundFailurePct": 49.2,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 5.8
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 51.7,
+      "everCompoundFailurePct": 47.5,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 13.3
+    },
+    {
+      "finalStablePct": 93.3,
+      "everAnyFailurePct": 58.3,
+      "everCompoundFailurePct": 53.3,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 86.7,
+      "everAnyFailurePct": 50,
+      "everCompoundFailurePct": 47.5,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 86.7,
+      "everAnyFailurePct": 49.2,
+      "everCompoundFailurePct": 48.3,
+      "chronicFailurePct": 9.2,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 59.2,
+      "everCompoundFailurePct": 55,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 52.5,
+      "everCompoundFailurePct": 47.5,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 88.3,
+      "everAnyFailurePct": 50.8,
+      "everCompoundFailurePct": 48.3,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 92.5,
+      "everAnyFailurePct": 54.2,
+      "everCompoundFailurePct": 50.8,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 50,
+      "everCompoundFailurePct": 47.5,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 51.7,
+      "everCompoundFailurePct": 50,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 10.8
+    },
+    {
+      "finalStablePct": 88.3,
+      "everAnyFailurePct": 52.5,
+      "everCompoundFailurePct": 49.2,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 55,
+      "everCompoundFailurePct": 49.2,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 48.3,
+      "everCompoundFailurePct": 46.7,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 10.8
+    },
+    {
+      "finalStablePct": 94.2,
+      "everAnyFailurePct": 51.7,
+      "everCompoundFailurePct": 46.7,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 5.8
+    },
+    {
+      "finalStablePct": 94.2,
+      "everAnyFailurePct": 55,
+      "everCompoundFailurePct": 50.8,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 59.2,
+      "everCompoundFailurePct": 57.5,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 54.2,
+      "everCompoundFailurePct": 50,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 50.8,
+      "everCompoundFailurePct": 50,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 83.3,
+      "everAnyFailurePct": 56.7,
+      "everCompoundFailurePct": 53.3,
+      "chronicFailurePct": 9.2,
+      "everDisplacedPct": 14.2
+    },
+    {
+      "finalStablePct": 86.7,
+      "everAnyFailurePct": 54.2,
+      "everCompoundFailurePct": 51.7,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 92.5,
+      "everAnyFailurePct": 50,
+      "everCompoundFailurePct": 45.8,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 5.8
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 50.8,
+      "everCompoundFailurePct": 49.2,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 93.3,
+      "everAnyFailurePct": 45,
+      "everCompoundFailurePct": 44.2,
+      "chronicFailurePct": 1.7,
+      "everDisplacedPct": 2.5
+    },
+    {
+      "finalStablePct": 84.2,
+      "everAnyFailurePct": 64.2,
+      "everCompoundFailurePct": 59.2,
+      "chronicFailurePct": 6.7,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 88.3,
+      "everAnyFailurePct": 59.2,
+      "everCompoundFailurePct": 56.7,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 85,
+      "everAnyFailurePct": 55.8,
+      "everCompoundFailurePct": 54.2,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 11.7
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 46.7,
+      "everCompoundFailurePct": 45,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 85,
+      "everAnyFailurePct": 51.7,
+      "everCompoundFailurePct": 46.7,
+      "chronicFailurePct": 9.2,
+      "everDisplacedPct": 11.7
+    },
+    {
+      "finalStablePct": 94.2,
+      "everAnyFailurePct": 50.8,
+      "everCompoundFailurePct": 47.5,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 88.3,
+      "everAnyFailurePct": 58.3,
+      "everCompoundFailurePct": 55,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 10.8
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 49.2,
+      "everCompoundFailurePct": 47.5,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 5
+    },
+    {
+      "finalStablePct": 85,
+      "everAnyFailurePct": 50.8,
+      "everCompoundFailurePct": 49.2,
+      "chronicFailurePct": 9.2,
+      "everDisplacedPct": 12.5
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 45.8,
+      "everCompoundFailurePct": 43.3,
+      "chronicFailurePct": 1.7,
+      "everDisplacedPct": 4.2
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 40,
+      "everCompoundFailurePct": 37.5,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 55,
+      "everCompoundFailurePct": 50.8,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 59.2,
+      "everCompoundFailurePct": 56.7,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 49.2,
+      "everCompoundFailurePct": 45,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 88.3,
+      "everAnyFailurePct": 43.3,
+      "everCompoundFailurePct": 40.8,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 85.8,
+      "everAnyFailurePct": 50,
+      "everCompoundFailurePct": 47.5,
+      "chronicFailurePct": 6.7,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 86.7,
+      "everAnyFailurePct": 52.5,
+      "everCompoundFailurePct": 48.3,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 46.7,
+      "everCompoundFailurePct": 42.5,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 92.5,
+      "everAnyFailurePct": 44.2,
+      "everCompoundFailurePct": 38.3,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 4.2
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 48.3,
+      "everCompoundFailurePct": 45,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 5
+    },
+    {
+      "finalStablePct": 88.3,
+      "everAnyFailurePct": 45.8,
+      "everCompoundFailurePct": 41.7,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 10.8
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 49.2,
+      "everCompoundFailurePct": 48.3,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 55,
+      "everCompoundFailurePct": 51.7,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 87.5,
+      "everAnyFailurePct": 60.8,
+      "everCompoundFailurePct": 56.7,
+      "chronicFailurePct": 6.7,
+      "everDisplacedPct": 12.5
+    },
+    {
+      "finalStablePct": 88.3,
+      "everAnyFailurePct": 51.7,
+      "everCompoundFailurePct": 46.7,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 84.2,
+      "everAnyFailurePct": 54.2,
+      "everCompoundFailurePct": 48.3,
+      "chronicFailurePct": 7.5,
+      "everDisplacedPct": 12.5
+    },
+    {
+      "finalStablePct": 83.3,
+      "everAnyFailurePct": 61.7,
+      "everCompoundFailurePct": 59.2,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 11.7
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 49.2,
+      "everCompoundFailurePct": 47.5,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 88.3,
+      "everAnyFailurePct": 54.2,
+      "everCompoundFailurePct": 50,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 51.7,
+      "everCompoundFailurePct": 48.3,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 92.5,
+      "everAnyFailurePct": 51.7,
+      "everCompoundFailurePct": 50.8,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 88.3,
+      "everAnyFailurePct": 50,
+      "everCompoundFailurePct": 49.2,
+      "chronicFailurePct": 7.5,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 86.7,
+      "everAnyFailurePct": 56.7,
+      "everCompoundFailurePct": 54.2,
+      "chronicFailurePct": 8.3,
+      "everDisplacedPct": 13.3
+    },
+    {
+      "finalStablePct": 85,
+      "everAnyFailurePct": 52.5,
+      "everCompoundFailurePct": 49.2,
+      "chronicFailurePct": 7.5,
+      "everDisplacedPct": 11.7
+    },
+    {
+      "finalStablePct": 83.3,
+      "everAnyFailurePct": 57.5,
+      "everCompoundFailurePct": 53.3,
+      "chronicFailurePct": 10,
+      "everDisplacedPct": 13.3
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 59.2,
+      "everCompoundFailurePct": 53.3,
+      "chronicFailurePct": 1.7,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 51.7,
+      "everCompoundFailurePct": 48.3,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 88.3,
+      "everAnyFailurePct": 47.5,
+      "everCompoundFailurePct": 44.2,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 5
+    },
+    {
+      "finalStablePct": 92.5,
+      "everAnyFailurePct": 54.2,
+      "everCompoundFailurePct": 50.8,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 94.2,
+      "everAnyFailurePct": 47.5,
+      "everCompoundFailurePct": 46.7,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 55.8,
+      "everCompoundFailurePct": 54.2,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 94.2,
+      "everAnyFailurePct": 53.3,
+      "everCompoundFailurePct": 50.8,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 87.5,
+      "everAnyFailurePct": 56.7,
+      "everCompoundFailurePct": 50,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 88.3,
+      "everAnyFailurePct": 50,
+      "everCompoundFailurePct": 46.7,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 48.3,
+      "everCompoundFailurePct": 45,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 12.5
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 55.8,
+      "everCompoundFailurePct": 51.7,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 44.2,
+      "everCompoundFailurePct": 43.3,
+      "chronicFailurePct": 0.8,
+      "everDisplacedPct": 5
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 54.2,
+      "everCompoundFailurePct": 50.8,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 52.5,
+      "everCompoundFailurePct": 52.5,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 58.3,
+      "everCompoundFailurePct": 52.5,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 12.5
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 48.3,
+      "everCompoundFailurePct": 46.7,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 50.8,
+      "everCompoundFailurePct": 49.2,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 88.3,
+      "everAnyFailurePct": 56.7,
+      "everCompoundFailurePct": 54.2,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 13.3
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 55.8,
+      "everCompoundFailurePct": 53.3,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 94.2,
+      "everAnyFailurePct": 52.5,
+      "everCompoundFailurePct": 50.8,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 10.8
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 51.7,
+      "everCompoundFailurePct": 43.3,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 47.5,
+      "everCompoundFailurePct": 43.3,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 88.3,
+      "everAnyFailurePct": 49.2,
+      "everCompoundFailurePct": 45.8,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 5
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 53.3,
+      "everCompoundFailurePct": 47.5,
+      "chronicFailurePct": 6.7,
+      "everDisplacedPct": 11.7
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 52.5,
+      "everCompoundFailurePct": 50.8,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 83.3,
+      "everAnyFailurePct": 56.7,
+      "everCompoundFailurePct": 53.3,
+      "chronicFailurePct": 7.5,
+      "everDisplacedPct": 13.3
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 53.3,
+      "everCompoundFailurePct": 50,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 5
+    },
+    {
+      "finalStablePct": 85,
+      "everAnyFailurePct": 63.3,
+      "everCompoundFailurePct": 56.7,
+      "chronicFailurePct": 7.5,
+      "everDisplacedPct": 14.2
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 59.2,
+      "everCompoundFailurePct": 56.7,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 5.8
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 50,
+      "everCompoundFailurePct": 48.3,
+      "chronicFailurePct": 1.7,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 88.3,
+      "everAnyFailurePct": 55,
+      "everCompoundFailurePct": 50.8,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 48.3,
+      "everCompoundFailurePct": 45,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 51.7,
+      "everCompoundFailurePct": 49.2,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 93.3,
+      "everAnyFailurePct": 50.8,
+      "everCompoundFailurePct": 50,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 93.3,
+      "everAnyFailurePct": 58.3,
+      "everCompoundFailurePct": 55.8,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 92.5,
+      "everAnyFailurePct": 50.8,
+      "everCompoundFailurePct": 47.5,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 92.5,
+      "everAnyFailurePct": 51.7,
+      "everCompoundFailurePct": 50,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 45,
+      "everCompoundFailurePct": 43.3,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 57.5,
+      "everCompoundFailurePct": 54.2,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 10.8
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 53.3,
+      "everCompoundFailurePct": 50,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 48.3,
+      "everCompoundFailurePct": 45.8,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 5.8
+    },
+    {
+      "finalStablePct": 88.3,
+      "everAnyFailurePct": 51.7,
+      "everCompoundFailurePct": 50,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 55.8,
+      "everCompoundFailurePct": 50.8,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 85.8,
+      "everAnyFailurePct": 57.5,
+      "everCompoundFailurePct": 55,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 10.8
+    },
+    {
+      "finalStablePct": 95.8,
+      "everAnyFailurePct": 45,
+      "everCompoundFailurePct": 39.2,
+      "chronicFailurePct": 1.7,
+      "everDisplacedPct": 4.2
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 47.5,
+      "everCompoundFailurePct": 45,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 92.5,
+      "everAnyFailurePct": 44.2,
+      "everCompoundFailurePct": 43.3,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 5.8
+    },
+    {
+      "finalStablePct": 85.8,
+      "everAnyFailurePct": 58.3,
+      "everCompoundFailurePct": 55.8,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 10.8
+    },
+    {
+      "finalStablePct": 86.7,
+      "everAnyFailurePct": 47.5,
+      "everCompoundFailurePct": 44.2,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 55,
+      "everCompoundFailurePct": 53.3,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 94.2,
+      "everAnyFailurePct": 54.2,
+      "everCompoundFailurePct": 49.2,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 5.8
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 50.8,
+      "everCompoundFailurePct": 46.7,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 50,
+      "everCompoundFailurePct": 48.3,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 10.8
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 55.8,
+      "everCompoundFailurePct": 50,
+      "chronicFailurePct": 0,
+      "everDisplacedPct": 3.3
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 55.8,
+      "everCompoundFailurePct": 50.8,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 53.3,
+      "everCompoundFailurePct": 45,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 85.8,
+      "everAnyFailurePct": 60,
+      "everCompoundFailurePct": 55.8,
+      "chronicFailurePct": 6.7,
+      "everDisplacedPct": 15
+    },
+    {
+      "finalStablePct": 87.5,
+      "everAnyFailurePct": 53.3,
+      "everCompoundFailurePct": 50,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 93.3,
+      "everAnyFailurePct": 52.5,
+      "everCompoundFailurePct": 50.8,
+      "chronicFailurePct": 1.7,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 52.5,
+      "everCompoundFailurePct": 49.2,
+      "chronicFailurePct": 6.7,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 51.7,
+      "everCompoundFailurePct": 46.7,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 54.2,
+      "everCompoundFailurePct": 51.7,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 61.7,
+      "everCompoundFailurePct": 58.3,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 10.8
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 51.7,
+      "everCompoundFailurePct": 48.3,
+      "chronicFailurePct": 1.7,
+      "everDisplacedPct": 3.3
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 50.8,
+      "everCompoundFailurePct": 49.2,
+      "chronicFailurePct": 1.7,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 84.2,
+      "everAnyFailurePct": 57.5,
+      "everCompoundFailurePct": 55,
+      "chronicFailurePct": 6.7,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 51.7,
+      "everCompoundFailurePct": 50,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 50,
+      "everCompoundFailurePct": 45,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 51.7,
+      "everCompoundFailurePct": 46.7,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 5.8
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 48.3,
+      "everCompoundFailurePct": 45.8,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 92.5,
+      "everAnyFailurePct": 50,
+      "everCompoundFailurePct": 45.8,
+      "chronicFailurePct": 1.7,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 83.3,
+      "everAnyFailurePct": 54.2,
+      "everCompoundFailurePct": 50,
+      "chronicFailurePct": 8.3,
+      "everDisplacedPct": 12.5
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 42.5,
+      "everCompoundFailurePct": 41.7,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 86.7,
+      "everAnyFailurePct": 55,
+      "everCompoundFailurePct": 51.7,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 88.3,
+      "everAnyFailurePct": 55.8,
+      "everCompoundFailurePct": 51.7,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 55.8,
+      "everCompoundFailurePct": 52.5,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 54.2,
+      "everCompoundFailurePct": 52.5,
+      "chronicFailurePct": 6.7,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 88.3,
+      "everAnyFailurePct": 50.8,
+      "everCompoundFailurePct": 50,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 10.8
+    },
+    {
+      "finalStablePct": 83.3,
+      "everAnyFailurePct": 50,
+      "everCompoundFailurePct": 48.3,
+      "chronicFailurePct": 7.5,
+      "everDisplacedPct": 10.8
+    },
+    {
+      "finalStablePct": 92.5,
+      "everAnyFailurePct": 51.7,
+      "everCompoundFailurePct": 49.2,
+      "chronicFailurePct": 1.7,
+      "everDisplacedPct": 5.8
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 47.5,
+      "everCompoundFailurePct": 47.5,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 54.2,
+      "everCompoundFailurePct": 50.8,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 57.5,
+      "everCompoundFailurePct": 54.2,
+      "chronicFailurePct": 7.5,
+      "everDisplacedPct": 11.7
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 55,
+      "everCompoundFailurePct": 54.2,
+      "chronicFailurePct": 1.7,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 55.8,
+      "everCompoundFailurePct": 53.3,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 93.3,
+      "everAnyFailurePct": 51.7,
+      "everCompoundFailurePct": 47.5,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 88.3,
+      "everAnyFailurePct": 53.3,
+      "everCompoundFailurePct": 51.7,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 93.3,
+      "everAnyFailurePct": 52.5,
+      "everCompoundFailurePct": 50,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 4.2
+    },
+    {
+      "finalStablePct": 95,
+      "everAnyFailurePct": 53.3,
+      "everCompoundFailurePct": 51.7,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 45.8,
+      "everCompoundFailurePct": 45,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 95,
+      "everAnyFailurePct": 49.2,
+      "everCompoundFailurePct": 45,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 11.7
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 56.7,
+      "everCompoundFailurePct": 53.3,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 10.8
+    },
+    {
+      "finalStablePct": 85.8,
+      "everAnyFailurePct": 52.5,
+      "everCompoundFailurePct": 49.2,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 11.7
+    },
+    {
+      "finalStablePct": 92.5,
+      "everAnyFailurePct": 50.8,
+      "everCompoundFailurePct": 49.2,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 51.7,
+      "everCompoundFailurePct": 50,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 50,
+      "everCompoundFailurePct": 48.3,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 57.5,
+      "everCompoundFailurePct": 56.7,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 47.5,
+      "everCompoundFailurePct": 41.7,
+      "chronicFailurePct": 1.7,
+      "everDisplacedPct": 4.2
+    },
+    {
+      "finalStablePct": 94.2,
+      "everAnyFailurePct": 51.7,
+      "everCompoundFailurePct": 50,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 50.8,
+      "everCompoundFailurePct": 46.7,
+      "chronicFailurePct": 1.7,
+      "everDisplacedPct": 4.2
+    },
+    {
+      "finalStablePct": 95,
+      "everAnyFailurePct": 52.5,
+      "everCompoundFailurePct": 51.7,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 52.5,
+      "everCompoundFailurePct": 50,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 88.3,
+      "everAnyFailurePct": 55.8,
+      "everCompoundFailurePct": 51.7,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 5.8
+    },
+    {
+      "finalStablePct": 88.3,
+      "everAnyFailurePct": 56.7,
+      "everCompoundFailurePct": 53.3,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 50.8,
+      "everCompoundFailurePct": 47.5,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 54.2,
+      "everCompoundFailurePct": 48.3,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 55.8,
+      "everCompoundFailurePct": 52.5,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 5.8
+    },
+    {
+      "finalStablePct": 82.5,
+      "everAnyFailurePct": 49.2,
+      "everCompoundFailurePct": 45,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 93.3,
+      "everAnyFailurePct": 48.3,
+      "everCompoundFailurePct": 44.2,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 5.8
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 53.3,
+      "everCompoundFailurePct": 51.7,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 52.5,
+      "everCompoundFailurePct": 50.8,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 92.5,
+      "everAnyFailurePct": 45.8,
+      "everCompoundFailurePct": 42.5,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 57.5,
+      "everCompoundFailurePct": 49.2,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 93.3,
+      "everAnyFailurePct": 50.8,
+      "everCompoundFailurePct": 47.5,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 55,
+      "everCompoundFailurePct": 52.5,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 48.3,
+      "everCompoundFailurePct": 44.2,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 50,
+      "everCompoundFailurePct": 48.3,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 87.5,
+      "everAnyFailurePct": 69.2,
+      "everCompoundFailurePct": 65,
+      "chronicFailurePct": 7.5,
+      "everDisplacedPct": 11.7
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 54.2,
+      "everCompoundFailurePct": 51.7,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 10.8
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 52.5,
+      "everCompoundFailurePct": 50,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 50.8,
+      "everCompoundFailurePct": 49.2,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 86.7,
+      "everAnyFailurePct": 56.7,
+      "everCompoundFailurePct": 53.3,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 87.5,
+      "everAnyFailurePct": 55,
+      "everCompoundFailurePct": 51.7,
+      "chronicFailurePct": 9.2,
+      "everDisplacedPct": 14.2
+    },
+    {
+      "finalStablePct": 94.2,
+      "everAnyFailurePct": 48.3,
+      "everCompoundFailurePct": 45,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 5
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 55.8,
+      "everCompoundFailurePct": 51.7,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 55,
+      "everCompoundFailurePct": 51.7,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 87.5,
+      "everAnyFailurePct": 50,
+      "everCompoundFailurePct": 45.8,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 12.5
+    },
+    {
+      "finalStablePct": 85.8,
+      "everAnyFailurePct": 50,
+      "everCompoundFailurePct": 47.5,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 53.3,
+      "everCompoundFailurePct": 46.7,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 93.3,
+      "everAnyFailurePct": 46.7,
+      "everCompoundFailurePct": 43.3,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 2.5
+    },
+    {
+      "finalStablePct": 92.5,
+      "everAnyFailurePct": 53.3,
+      "everCompoundFailurePct": 50.8,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 5.8
+    },
+    {
+      "finalStablePct": 92.5,
+      "everAnyFailurePct": 50,
+      "everCompoundFailurePct": 45.8,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 51.7,
+      "everCompoundFailurePct": 50.8,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 87.5,
+      "everAnyFailurePct": 56.7,
+      "everCompoundFailurePct": 51.7,
+      "chronicFailurePct": 6.7,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 51.7,
+      "everCompoundFailurePct": 46.7,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 11.7
+    },
+    {
+      "finalStablePct": 86.7,
+      "everAnyFailurePct": 59.2,
+      "everCompoundFailurePct": 56.7,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 14.2
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 53.3,
+      "everCompoundFailurePct": 50.8,
+      "chronicFailurePct": 6.7,
+      "everDisplacedPct": 10.8
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 41.7,
+      "everCompoundFailurePct": 38.3,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 10.8
+    },
+    {
+      "finalStablePct": 86.7,
+      "everAnyFailurePct": 61.7,
+      "everCompoundFailurePct": 57.5,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 88.3,
+      "everAnyFailurePct": 52.5,
+      "everCompoundFailurePct": 50,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 61.7,
+      "everCompoundFailurePct": 60,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 5.8
+    },
+    {
+      "finalStablePct": 85,
+      "everAnyFailurePct": 57.5,
+      "everCompoundFailurePct": 54.2,
+      "chronicFailurePct": 7.5,
+      "everDisplacedPct": 14.2
+    },
+    {
+      "finalStablePct": 88.3,
+      "everAnyFailurePct": 52.5,
+      "everCompoundFailurePct": 47.5,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 87.5,
+      "everAnyFailurePct": 49.2,
+      "everCompoundFailurePct": 46.7,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 11.7
+    },
+    {
+      "finalStablePct": 88.3,
+      "everAnyFailurePct": 54.2,
+      "everCompoundFailurePct": 50,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 85.8,
+      "everAnyFailurePct": 48.3,
+      "everCompoundFailurePct": 44.2,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 86.7,
+      "everAnyFailurePct": 48.3,
+      "everCompoundFailurePct": 47.5,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 52.5,
+      "everCompoundFailurePct": 48.3,
+      "chronicFailurePct": 1.7,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 52.5,
+      "everCompoundFailurePct": 51.7,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 54.2,
+      "everCompoundFailurePct": 46.7,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 54.2,
+      "everCompoundFailurePct": 47.5,
+      "chronicFailurePct": 6.7,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 53.3,
+      "everCompoundFailurePct": 51.7,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 85,
+      "everAnyFailurePct": 55.8,
+      "everCompoundFailurePct": 52.5,
+      "chronicFailurePct": 6.7,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 57.5,
+      "everCompoundFailurePct": 55,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 87.5,
+      "everAnyFailurePct": 52.5,
+      "everCompoundFailurePct": 50,
+      "chronicFailurePct": 7.5,
+      "everDisplacedPct": 11.7
+    },
+    {
+      "finalStablePct": 86.7,
+      "everAnyFailurePct": 51.7,
+      "everCompoundFailurePct": 48.3,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 50.8,
+      "everCompoundFailurePct": 48.3,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 50,
+      "everCompoundFailurePct": 46.7,
+      "chronicFailurePct": 8.3,
+      "everDisplacedPct": 12.5
+    },
+    {
+      "finalStablePct": 96.7,
+      "everAnyFailurePct": 45.8,
+      "everCompoundFailurePct": 43.3,
+      "chronicFailurePct": 1.7,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 59.2,
+      "everCompoundFailurePct": 55.8,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 10.8
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 52.5,
+      "everCompoundFailurePct": 47.5,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 10.8
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 53.3,
+      "everCompoundFailurePct": 51.7,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 88.3,
+      "everAnyFailurePct": 50,
+      "everCompoundFailurePct": 47.5,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 56.7,
+      "everCompoundFailurePct": 50.8,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 4.2
+    },
+    {
+      "finalStablePct": 92.5,
+      "everAnyFailurePct": 48.3,
+      "everCompoundFailurePct": 44.2,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 5.8
+    },
+    {
+      "finalStablePct": 93.3,
+      "everAnyFailurePct": 47.5,
+      "everCompoundFailurePct": 44.2,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 4.2
+    },
+    {
+      "finalStablePct": 95.8,
+      "everAnyFailurePct": 53.3,
+      "everCompoundFailurePct": 49.2,
+      "chronicFailurePct": 0.8,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 94.2,
+      "everAnyFailurePct": 48.3,
+      "everCompoundFailurePct": 44.2,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 4.2
+    },
+    {
+      "finalStablePct": 94.2,
+      "everAnyFailurePct": 55,
+      "everCompoundFailurePct": 52.5,
+      "chronicFailurePct": 1.7,
+      "everDisplacedPct": 4.2
+    },
+    {
+      "finalStablePct": 85,
+      "everAnyFailurePct": 66.7,
+      "everCompoundFailurePct": 64.2,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 82.5,
+      "everAnyFailurePct": 53.3,
+      "everCompoundFailurePct": 50,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 93.3,
+      "everAnyFailurePct": 51.7,
+      "everCompoundFailurePct": 49.2,
+      "chronicFailurePct": 0.8,
+      "everDisplacedPct": 5
+    },
+    {
+      "finalStablePct": 92.5,
+      "everAnyFailurePct": 51.7,
+      "everCompoundFailurePct": 49.2,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 4.2
+    },
+    {
+      "finalStablePct": 85,
+      "everAnyFailurePct": 57.5,
+      "everCompoundFailurePct": 53.3,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 45,
+      "everCompoundFailurePct": 42.5,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 3.3
+    },
+    {
+      "finalStablePct": 95.8,
+      "everAnyFailurePct": 49.2,
+      "everCompoundFailurePct": 46.7,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 52.5,
+      "everCompoundFailurePct": 49.2,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 93.3,
+      "everAnyFailurePct": 50.8,
+      "everCompoundFailurePct": 50.8,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 5.8
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 53.3,
+      "everCompoundFailurePct": 50.8,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 10.8
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 52.5,
+      "everCompoundFailurePct": 50.8,
+      "chronicFailurePct": 1.7,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 58.3,
+      "everCompoundFailurePct": 54.2,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 10.8
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 42.5,
+      "everCompoundFailurePct": 40.8,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 5
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 52.5,
+      "everCompoundFailurePct": 50,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 93.3,
+      "everAnyFailurePct": 48.3,
+      "everCompoundFailurePct": 46.7,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 51.7,
+      "everCompoundFailurePct": 45.8,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 85.8,
+      "everAnyFailurePct": 53.3,
+      "everCompoundFailurePct": 48.3,
+      "chronicFailurePct": 9.2,
+      "everDisplacedPct": 14.2
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 50.8,
+      "everCompoundFailurePct": 49.2,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 10.8
+    },
+    {
+      "finalStablePct": 84.2,
+      "everAnyFailurePct": 58.3,
+      "everCompoundFailurePct": 55,
+      "chronicFailurePct": 6.7,
+      "everDisplacedPct": 13.3
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 53.3,
+      "everCompoundFailurePct": 49.2,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 92.5,
+      "everAnyFailurePct": 42.5,
+      "everCompoundFailurePct": 40,
+      "chronicFailurePct": 1.7,
+      "everDisplacedPct": 5
+    },
+    {
+      "finalStablePct": 92.5,
+      "everAnyFailurePct": 51.7,
+      "everCompoundFailurePct": 49.2,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 3.3
+    },
+    {
+      "finalStablePct": 85,
+      "everAnyFailurePct": 56.7,
+      "everCompoundFailurePct": 56.7,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 11.7
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 52.5,
+      "everCompoundFailurePct": 46.7,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 50.8,
+      "everCompoundFailurePct": 49.2,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 52.5,
+      "everCompoundFailurePct": 50,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 10.8
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 50.8,
+      "everCompoundFailurePct": 49.2,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 94.2,
+      "everAnyFailurePct": 54.2,
+      "everCompoundFailurePct": 51.7,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 53.3,
+      "everCompoundFailurePct": 50,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 83.3,
+      "everAnyFailurePct": 51.7,
+      "everCompoundFailurePct": 49.2,
+      "chronicFailurePct": 6.7,
+      "everDisplacedPct": 10.8
+    },
+    {
+      "finalStablePct": 86.7,
+      "everAnyFailurePct": 52.5,
+      "everCompoundFailurePct": 46.7,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 10.8
+    },
+    {
+      "finalStablePct": 85,
+      "everAnyFailurePct": 54.2,
+      "everCompoundFailurePct": 51.7,
+      "chronicFailurePct": 8.3,
+      "everDisplacedPct": 11.7
+    },
+    {
+      "finalStablePct": 85.8,
+      "everAnyFailurePct": 60.8,
+      "everCompoundFailurePct": 57.5,
+      "chronicFailurePct": 7.5,
+      "everDisplacedPct": 12.5
+    },
+    {
+      "finalStablePct": 87.5,
+      "everAnyFailurePct": 57.5,
+      "everCompoundFailurePct": 52.5,
+      "chronicFailurePct": 6.7,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 87.5,
+      "everAnyFailurePct": 57.5,
+      "everCompoundFailurePct": 51.7,
+      "chronicFailurePct": 0.8,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 41.7,
+      "everCompoundFailurePct": 39.2,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 88.3,
+      "everAnyFailurePct": 52.5,
+      "everCompoundFailurePct": 50.8,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 88.3,
+      "everAnyFailurePct": 53.3,
+      "everCompoundFailurePct": 51.7,
+      "chronicFailurePct": 6.7,
+      "everDisplacedPct": 13.3
+    },
+    {
+      "finalStablePct": 93.3,
+      "everAnyFailurePct": 50,
+      "everCompoundFailurePct": 46.7,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 5.8
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 55.8,
+      "everCompoundFailurePct": 50.8,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 53.3,
+      "everCompoundFailurePct": 50,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 88.3,
+      "everAnyFailurePct": 50.8,
+      "everCompoundFailurePct": 48.3,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 87.5,
+      "everAnyFailurePct": 51.7,
+      "everCompoundFailurePct": 50,
+      "chronicFailurePct": 6.7,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 92.5,
+      "everAnyFailurePct": 49.2,
+      "everCompoundFailurePct": 43.3,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 56.7,
+      "everCompoundFailurePct": 54.2,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 39.2,
+      "everCompoundFailurePct": 33.3,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 5.8
+    },
+    {
+      "finalStablePct": 86.7,
+      "everAnyFailurePct": 54.2,
+      "everCompoundFailurePct": 50,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 10.8
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 56.7,
+      "everCompoundFailurePct": 51.7,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 10.8
+    },
+    {
+      "finalStablePct": 82.5,
+      "everAnyFailurePct": 61.7,
+      "everCompoundFailurePct": 59.2,
+      "chronicFailurePct": 8.3,
+      "everDisplacedPct": 12.5
+    },
+    {
+      "finalStablePct": 95.8,
+      "everAnyFailurePct": 48.3,
+      "everCompoundFailurePct": 45.8,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 5.8
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 60.8,
+      "everCompoundFailurePct": 60.8,
+      "chronicFailurePct": 1.7,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 94.2,
+      "everAnyFailurePct": 45.8,
+      "everCompoundFailurePct": 42.5,
+      "chronicFailurePct": 0.8,
+      "everDisplacedPct": 3.3
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 52.5,
+      "everCompoundFailurePct": 50,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 88.3,
+      "everAnyFailurePct": 60.8,
+      "everCompoundFailurePct": 54.2,
+      "chronicFailurePct": 7.5,
+      "everDisplacedPct": 11.7
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 54.2,
+      "everCompoundFailurePct": 51.7,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 54.2,
+      "everCompoundFailurePct": 52.5,
+      "chronicFailurePct": 6.7,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 59.2,
+      "everCompoundFailurePct": 55,
+      "chronicFailurePct": 6.7,
+      "everDisplacedPct": 12.5
+    },
+    {
+      "finalStablePct": 87.5,
+      "everAnyFailurePct": 53.3,
+      "everCompoundFailurePct": 52.5,
+      "chronicFailurePct": 6.7,
+      "everDisplacedPct": 12.5
+    },
+    {
+      "finalStablePct": 87.5,
+      "everAnyFailurePct": 54.2,
+      "everCompoundFailurePct": 51.7,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 59.2,
+      "everCompoundFailurePct": 57.5,
+      "chronicFailurePct": 1.7,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 94.2,
+      "everAnyFailurePct": 55,
+      "everCompoundFailurePct": 50,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 5
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 53.3,
+      "everCompoundFailurePct": 50,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 50.8,
+      "everCompoundFailurePct": 47.5,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 55.8,
+      "everCompoundFailurePct": 51.7,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 51.7,
+      "everCompoundFailurePct": 43.3,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 51.7,
+      "everCompoundFailurePct": 49.2,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 44.2,
+      "everCompoundFailurePct": 42.5,
+      "chronicFailurePct": 6.7,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 59.2,
+      "everCompoundFailurePct": 57.5,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 52.5,
+      "everCompoundFailurePct": 51.7,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 52.5,
+      "everCompoundFailurePct": 51.7,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 87.5,
+      "everAnyFailurePct": 52.5,
+      "everCompoundFailurePct": 50,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 95,
+      "everAnyFailurePct": 50,
+      "everCompoundFailurePct": 46.7,
+      "chronicFailurePct": 0.8,
+      "everDisplacedPct": 5
+    },
+    {
+      "finalStablePct": 86.7,
+      "everAnyFailurePct": 51.7,
+      "everCompoundFailurePct": 51.7,
+      "chronicFailurePct": 8.3,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 45,
+      "everCompoundFailurePct": 41.7,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 5
+    },
+    {
+      "finalStablePct": 87.5,
+      "everAnyFailurePct": 57.5,
+      "everCompoundFailurePct": 52.5,
+      "chronicFailurePct": 10,
+      "everDisplacedPct": 10.8
+    },
+    {
+      "finalStablePct": 94.2,
+      "everAnyFailurePct": 65,
+      "everCompoundFailurePct": 63.3,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 86.7,
+      "everAnyFailurePct": 52.5,
+      "everCompoundFailurePct": 48.3,
+      "chronicFailurePct": 7.5,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 46.7,
+      "everCompoundFailurePct": 41.7,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 58.3,
+      "everCompoundFailurePct": 53.3,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 93.3,
+      "everAnyFailurePct": 59.2,
+      "everCompoundFailurePct": 57.5,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 46.7,
+      "everCompoundFailurePct": 44.2,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 51.7,
+      "everCompoundFailurePct": 50,
+      "chronicFailurePct": 1.7,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 88.3,
+      "everAnyFailurePct": 55.8,
+      "everCompoundFailurePct": 55.8,
+      "chronicFailurePct": 7.5,
+      "everDisplacedPct": 10.8
+    },
+    {
+      "finalStablePct": 87.5,
+      "everAnyFailurePct": 54.2,
+      "everCompoundFailurePct": 51.7,
+      "chronicFailurePct": 9.2,
+      "everDisplacedPct": 14.2
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 53.3,
+      "everCompoundFailurePct": 48.3,
+      "chronicFailurePct": 1.7,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 87.5,
+      "everAnyFailurePct": 52.5,
+      "everCompoundFailurePct": 51.7,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 10.8
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 40.8,
+      "everCompoundFailurePct": 39.2,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 5
+    },
+    {
+      "finalStablePct": 87.5,
+      "everAnyFailurePct": 57.5,
+      "everCompoundFailurePct": 54.2,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 84.2,
+      "everAnyFailurePct": 50.8,
+      "everCompoundFailurePct": 50,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 48.3,
+      "everCompoundFailurePct": 44.2,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 11.7
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 59.2,
+      "everCompoundFailurePct": 55,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 96.7,
+      "everAnyFailurePct": 44.2,
+      "everCompoundFailurePct": 42.5,
+      "chronicFailurePct": 0.8,
+      "everDisplacedPct": 3.3
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 62.5,
+      "everCompoundFailurePct": 55.8,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 87.5,
+      "everAnyFailurePct": 56.7,
+      "everCompoundFailurePct": 55,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 50,
+      "everCompoundFailurePct": 47.5,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 52.5,
+      "everCompoundFailurePct": 49.2,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 10.8
+    },
+    {
+      "finalStablePct": 86.7,
+      "everAnyFailurePct": 57.5,
+      "everCompoundFailurePct": 53.3,
+      "chronicFailurePct": 6.7,
+      "everDisplacedPct": 12.5
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 53.3,
+      "everCompoundFailurePct": 48.3,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 87.5,
+      "everAnyFailurePct": 60,
+      "everCompoundFailurePct": 55.8,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 49.2,
+      "everCompoundFailurePct": 46.7,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 94.2,
+      "everAnyFailurePct": 43.3,
+      "everCompoundFailurePct": 41.7,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 47.5,
+      "everCompoundFailurePct": 45.8,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 52.5,
+      "everCompoundFailurePct": 47.5,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 5.8
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 52.5,
+      "everCompoundFailurePct": 47.5,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 88.3,
+      "everAnyFailurePct": 55.8,
+      "everCompoundFailurePct": 52.5,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 48.3,
+      "everCompoundFailurePct": 45,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 51.7,
+      "everCompoundFailurePct": 49.2,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 4.2
+    },
+    {
+      "finalStablePct": 86.7,
+      "everAnyFailurePct": 51.7,
+      "everCompoundFailurePct": 48.3,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 85.8,
+      "everAnyFailurePct": 57.5,
+      "everCompoundFailurePct": 54.2,
+      "chronicFailurePct": 6.7,
+      "everDisplacedPct": 11.7
+    },
+    {
+      "finalStablePct": 93.3,
+      "everAnyFailurePct": 50,
+      "everCompoundFailurePct": 45,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 85.8,
+      "everAnyFailurePct": 55.8,
+      "everCompoundFailurePct": 51.7,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 48.3,
+      "everCompoundFailurePct": 48.3,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 59.2,
+      "everCompoundFailurePct": 58.3,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 11.7
+    },
+    {
+      "finalStablePct": 94.2,
+      "everAnyFailurePct": 64.2,
+      "everCompoundFailurePct": 61.7,
+      "chronicFailurePct": 1.7,
+      "everDisplacedPct": 5.8
+    },
+    {
+      "finalStablePct": 87.5,
+      "everAnyFailurePct": 43.3,
+      "everCompoundFailurePct": 39.2,
+      "chronicFailurePct": 6.7,
+      "everDisplacedPct": 11.7
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 48.3,
+      "everCompoundFailurePct": 45.8,
+      "chronicFailurePct": 1.7,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 88.3,
+      "everAnyFailurePct": 61.7,
+      "everCompoundFailurePct": 59.2,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 88.3,
+      "everAnyFailurePct": 49.2,
+      "everCompoundFailurePct": 48.3,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 87.5,
+      "everAnyFailurePct": 55.8,
+      "everCompoundFailurePct": 52.5,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 10.8
+    },
+    {
+      "finalStablePct": 87.5,
+      "everAnyFailurePct": 50,
+      "everCompoundFailurePct": 46.7,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 85,
+      "everAnyFailurePct": 50.8,
+      "everCompoundFailurePct": 50,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 65,
+      "everCompoundFailurePct": 58.3,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 10.8
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 58.3,
+      "everCompoundFailurePct": 55,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 12.5
+    },
+    {
+      "finalStablePct": 85.8,
+      "everAnyFailurePct": 54.2,
+      "everCompoundFailurePct": 53.3,
+      "chronicFailurePct": 7.5,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 50,
+      "everCompoundFailurePct": 45,
+      "chronicFailurePct": 6.7,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 50.8,
+      "everCompoundFailurePct": 45,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 58.3,
+      "everCompoundFailurePct": 57.5,
+      "chronicFailurePct": 1.7,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 93.3,
+      "everAnyFailurePct": 56.7,
+      "everCompoundFailurePct": 52.5,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 87.5,
+      "everAnyFailurePct": 59.2,
+      "everCompoundFailurePct": 54.2,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 88.3,
+      "everAnyFailurePct": 45.8,
+      "everCompoundFailurePct": 43.3,
+      "chronicFailurePct": 1.7,
+      "everDisplacedPct": 4.2
+    },
+    {
+      "finalStablePct": 88.3,
+      "everAnyFailurePct": 52.5,
+      "everCompoundFailurePct": 50.8,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 57.5,
+      "everCompoundFailurePct": 53.3,
+      "chronicFailurePct": 1.7,
+      "everDisplacedPct": 5
+    },
+    {
+      "finalStablePct": 88.3,
+      "everAnyFailurePct": 55.8,
+      "everCompoundFailurePct": 51.7,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 4.2
+    },
+    {
+      "finalStablePct": 84.2,
+      "everAnyFailurePct": 53.3,
+      "everCompoundFailurePct": 52.5,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 13.3
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 57.5,
+      "everCompoundFailurePct": 53.3,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 93.3,
+      "everAnyFailurePct": 60.8,
+      "everCompoundFailurePct": 59.2,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 52.5,
+      "everCompoundFailurePct": 51.7,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 54.2,
+      "everCompoundFailurePct": 53.3,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 92.5,
+      "everAnyFailurePct": 48.3,
+      "everCompoundFailurePct": 44.2,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 46.7,
+      "everCompoundFailurePct": 44.2,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 48.3,
+      "everCompoundFailurePct": 44.2,
+      "chronicFailurePct": 1.7,
+      "everDisplacedPct": 5
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 53.3,
+      "everCompoundFailurePct": 50.8,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 88.3,
+      "everAnyFailurePct": 57.5,
+      "everCompoundFailurePct": 54.2,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 10.8
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 50.8,
+      "everCompoundFailurePct": 47.5,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 5.8
+    },
+    {
+      "finalStablePct": 87.5,
+      "everAnyFailurePct": 58.3,
+      "everCompoundFailurePct": 56.7,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 10.8
+    },
+    {
+      "finalStablePct": 87.5,
+      "everAnyFailurePct": 48.3,
+      "everCompoundFailurePct": 46.7,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 53.3,
+      "everCompoundFailurePct": 50,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 93.3,
+      "everAnyFailurePct": 50,
+      "everCompoundFailurePct": 46.7,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 4.2
+    },
+    {
+      "finalStablePct": 93.3,
+      "everAnyFailurePct": 49.2,
+      "everCompoundFailurePct": 45,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 57.5,
+      "everCompoundFailurePct": 54.2,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 5
+    },
+    {
+      "finalStablePct": 92.5,
+      "everAnyFailurePct": 51.7,
+      "everCompoundFailurePct": 46.7,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 92.5,
+      "everAnyFailurePct": 58.3,
+      "everCompoundFailurePct": 53.3,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 5.8
+    },
+    {
+      "finalStablePct": 93.3,
+      "everAnyFailurePct": 49.2,
+      "everCompoundFailurePct": 45.8,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 50,
+      "everCompoundFailurePct": 47.5,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 10.8
+    },
+    {
+      "finalStablePct": 92.5,
+      "everAnyFailurePct": 52.5,
+      "everCompoundFailurePct": 51.7,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 52.5,
+      "everCompoundFailurePct": 50,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 51.7,
+      "everCompoundFailurePct": 49.2,
+      "chronicFailurePct": 1.7,
+      "everDisplacedPct": 5
+    },
+    {
+      "finalStablePct": 86.7,
+      "everAnyFailurePct": 55.8,
+      "everCompoundFailurePct": 54.2,
+      "chronicFailurePct": 6.7,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 49.2,
+      "everCompoundFailurePct": 43.3,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 54.2,
+      "everCompoundFailurePct": 51.7,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 49.2,
+      "everCompoundFailurePct": 47.5,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 88.3,
+      "everAnyFailurePct": 57.5,
+      "everCompoundFailurePct": 53.3,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 10.8
+    },
+    {
+      "finalStablePct": 93.3,
+      "everAnyFailurePct": 51.7,
+      "everCompoundFailurePct": 49.2,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 92.5,
+      "everAnyFailurePct": 40.8,
+      "everCompoundFailurePct": 39.2,
+      "chronicFailurePct": 1.7,
+      "everDisplacedPct": 5.8
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 55,
+      "everCompoundFailurePct": 50.8,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 15
+    },
+    {
+      "finalStablePct": 85.8,
+      "everAnyFailurePct": 59.2,
+      "everCompoundFailurePct": 55.8,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 48.3,
+      "everCompoundFailurePct": 47.5,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 53.3,
+      "everCompoundFailurePct": 48.3,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 92.5,
+      "everAnyFailurePct": 45.8,
+      "everCompoundFailurePct": 43.3,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 49.2,
+      "everCompoundFailurePct": 49.2,
+      "chronicFailurePct": 1.7,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 56.7,
+      "everCompoundFailurePct": 50,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 86.7,
+      "everAnyFailurePct": 52.5,
+      "everCompoundFailurePct": 50.8,
+      "chronicFailurePct": 6.7,
+      "everDisplacedPct": 10.8
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 50,
+      "everCompoundFailurePct": 45,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 92.5,
+      "everAnyFailurePct": 41.7,
+      "everCompoundFailurePct": 39.2,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 5.8
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 53.3,
+      "everCompoundFailurePct": 49.2,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 47.5,
+      "everCompoundFailurePct": 43.3,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 10.8
+    },
+    {
+      "finalStablePct": 88.3,
+      "everAnyFailurePct": 51.7,
+      "everCompoundFailurePct": 50,
+      "chronicFailurePct": 6.7,
+      "everDisplacedPct": 10.8
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 58.3,
+      "everCompoundFailurePct": 53.3,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 86.7,
+      "everAnyFailurePct": 49.2,
+      "everCompoundFailurePct": 46.7,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 87.5,
+      "everAnyFailurePct": 54.2,
+      "everCompoundFailurePct": 51.7,
+      "chronicFailurePct": 6.7,
+      "everDisplacedPct": 11.7
+    },
+    {
+      "finalStablePct": 80.8,
+      "everAnyFailurePct": 62.5,
+      "everCompoundFailurePct": 59.2,
+      "chronicFailurePct": 8.3,
+      "everDisplacedPct": 12.5
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 58.3,
+      "everCompoundFailurePct": 55.8,
+      "chronicFailurePct": 1.7,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 80.8,
+      "everAnyFailurePct": 60.8,
+      "everCompoundFailurePct": 52.5,
+      "chronicFailurePct": 10,
+      "everDisplacedPct": 11.7
+    },
+    {
+      "finalStablePct": 93.3,
+      "everAnyFailurePct": 55,
+      "everCompoundFailurePct": 50,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 55,
+      "everCompoundFailurePct": 50,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 88.3,
+      "everAnyFailurePct": 54.2,
+      "everCompoundFailurePct": 51.7,
+      "chronicFailurePct": 6.7,
+      "everDisplacedPct": 10.8
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 53.3,
+      "everCompoundFailurePct": 49.2,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 93.3,
+      "everAnyFailurePct": 47.5,
+      "everCompoundFailurePct": 43.3,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 86.7,
+      "everAnyFailurePct": 54.2,
+      "everCompoundFailurePct": 45.8,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 92.5,
+      "everAnyFailurePct": 49.2,
+      "everCompoundFailurePct": 44.2,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 41.7,
+      "everCompoundFailurePct": 40.8,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 92.5,
+      "everAnyFailurePct": 42.5,
+      "everCompoundFailurePct": 39.2,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 93.3,
+      "everAnyFailurePct": 55,
+      "everCompoundFailurePct": 50.8,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 10.8
+    },
+    {
+      "finalStablePct": 88.3,
+      "everAnyFailurePct": 55,
+      "everCompoundFailurePct": 48.3,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 92.5,
+      "everAnyFailurePct": 64.2,
+      "everCompoundFailurePct": 63.3,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 85,
+      "everAnyFailurePct": 50,
+      "everCompoundFailurePct": 45,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 15
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 49.2,
+      "everCompoundFailurePct": 45.8,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 5.8
+    },
+    {
+      "finalStablePct": 92.5,
+      "everAnyFailurePct": 50.8,
+      "everCompoundFailurePct": 48.3,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 88.3,
+      "everAnyFailurePct": 47.5,
+      "everCompoundFailurePct": 45,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 85,
+      "everAnyFailurePct": 61.7,
+      "everCompoundFailurePct": 57.5,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 94.2,
+      "everAnyFailurePct": 52.5,
+      "everCompoundFailurePct": 45.8,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 88.3,
+      "everAnyFailurePct": 51.7,
+      "everCompoundFailurePct": 48.3,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 10.8
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 53.3,
+      "everCompoundFailurePct": 49.2,
+      "chronicFailurePct": 1.7,
+      "everDisplacedPct": 5.8
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 52.5,
+      "everCompoundFailurePct": 47.5,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 5.8
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 55.8,
+      "everCompoundFailurePct": 50.8,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 52.5,
+      "everCompoundFailurePct": 47.5,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 57.5,
+      "everCompoundFailurePct": 51.7,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 55.8,
+      "everCompoundFailurePct": 50.8,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 5
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 59.2,
+      "everCompoundFailurePct": 58.3,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 10.8
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 44.2,
+      "everCompoundFailurePct": 43.3,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 92.5,
+      "everAnyFailurePct": 51.7,
+      "everCompoundFailurePct": 50,
+      "chronicFailurePct": 1.7,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 45,
+      "everCompoundFailurePct": 42.5,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 47.5,
+      "everCompoundFailurePct": 43.3,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 61.7,
+      "everCompoundFailurePct": 58.3,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 10.8
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 50,
+      "everCompoundFailurePct": 47.5,
+      "chronicFailurePct": 1.7,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 52.5,
+      "everCompoundFailurePct": 52.5,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 92.5,
+      "everAnyFailurePct": 48.3,
+      "everCompoundFailurePct": 41.7,
+      "chronicFailurePct": 1.7,
+      "everDisplacedPct": 5.8
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 45.8,
+      "everCompoundFailurePct": 44.2,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 54.2,
+      "everCompoundFailurePct": 51.7,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 84.2,
+      "everAnyFailurePct": 57.5,
+      "everCompoundFailurePct": 55,
+      "chronicFailurePct": 10,
+      "everDisplacedPct": 12.5
+    },
+    {
+      "finalStablePct": 87.5,
+      "everAnyFailurePct": 59.2,
+      "everCompoundFailurePct": 57.5,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 52.5,
+      "everCompoundFailurePct": 50,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 10.8
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 51.7,
+      "everCompoundFailurePct": 49.2,
+      "chronicFailurePct": 7.5,
+      "everDisplacedPct": 11.7
+    },
+    {
+      "finalStablePct": 93.3,
+      "everAnyFailurePct": 50.8,
+      "everCompoundFailurePct": 49.2,
+      "chronicFailurePct": 0.8,
+      "everDisplacedPct": 5
+    },
+    {
+      "finalStablePct": 84.2,
+      "everAnyFailurePct": 55,
+      "everCompoundFailurePct": 50.8,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 86.7,
+      "everAnyFailurePct": 53.3,
+      "everCompoundFailurePct": 48.3,
+      "chronicFailurePct": 1.7,
+      "everDisplacedPct": 5
+    },
+    {
+      "finalStablePct": 88.3,
+      "everAnyFailurePct": 54.2,
+      "everCompoundFailurePct": 51.7,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 58.3,
+      "everCompoundFailurePct": 56.7,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 93.3,
+      "everAnyFailurePct": 49.2,
+      "everCompoundFailurePct": 47.5,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 55,
+      "everCompoundFailurePct": 51.7,
+      "chronicFailurePct": 6.7,
+      "everDisplacedPct": 14.2
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 57.5,
+      "everCompoundFailurePct": 52.5,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 55,
+      "everCompoundFailurePct": 54.2,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 58.3,
+      "everCompoundFailurePct": 54.2,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 87.5,
+      "everAnyFailurePct": 53.3,
+      "everCompoundFailurePct": 52.5,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 92.5,
+      "everAnyFailurePct": 45,
+      "everCompoundFailurePct": 44.2,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 85,
+      "everAnyFailurePct": 54.2,
+      "everCompoundFailurePct": 49.2,
+      "chronicFailurePct": 10,
+      "everDisplacedPct": 11.7
+    },
+    {
+      "finalStablePct": 82.5,
+      "everAnyFailurePct": 61.7,
+      "everCompoundFailurePct": 56.7,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 14.2
+    },
+    {
+      "finalStablePct": 93.3,
+      "everAnyFailurePct": 46.7,
+      "everCompoundFailurePct": 44.2,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 3.3
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 60,
+      "everCompoundFailurePct": 57.5,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 86.7,
+      "everAnyFailurePct": 54.2,
+      "everCompoundFailurePct": 53.3,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 5.8
+    },
+    {
+      "finalStablePct": 82.5,
+      "everAnyFailurePct": 62.5,
+      "everCompoundFailurePct": 58.3,
+      "chronicFailurePct": 10,
+      "everDisplacedPct": 15
+    },
+    {
+      "finalStablePct": 86.7,
+      "everAnyFailurePct": 60.8,
+      "everCompoundFailurePct": 58.3,
+      "chronicFailurePct": 6.7,
+      "everDisplacedPct": 12.5
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 54.2,
+      "everCompoundFailurePct": 52.5,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 53.3,
+      "everCompoundFailurePct": 50,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 4.2
+    },
+    {
+      "finalStablePct": 85.8,
+      "everAnyFailurePct": 55.8,
+      "everCompoundFailurePct": 52.5,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 87.5,
+      "everAnyFailurePct": 60,
+      "everCompoundFailurePct": 57.5,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 53.3,
+      "everCompoundFailurePct": 48.3,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 88.3,
+      "everAnyFailurePct": 52.5,
+      "everCompoundFailurePct": 50.8,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 55,
+      "everCompoundFailurePct": 51.7,
+      "chronicFailurePct": 7.5,
+      "everDisplacedPct": 12.5
+    },
+    {
+      "finalStablePct": 93.3,
+      "everAnyFailurePct": 52.5,
+      "everCompoundFailurePct": 50,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 86.7,
+      "everAnyFailurePct": 55,
+      "everCompoundFailurePct": 53.3,
+      "chronicFailurePct": 8.3,
+      "everDisplacedPct": 14.2
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 50.8,
+      "everCompoundFailurePct": 49.2,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 51.7,
+      "everCompoundFailurePct": 45.8,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 88.3,
+      "everAnyFailurePct": 55.8,
+      "everCompoundFailurePct": 53.3,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 88.3,
+      "everAnyFailurePct": 54.2,
+      "everCompoundFailurePct": 49.2,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 92.5,
+      "everAnyFailurePct": 55,
+      "everCompoundFailurePct": 53.3,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 85,
+      "everAnyFailurePct": 55.8,
+      "everCompoundFailurePct": 54.2,
+      "chronicFailurePct": 6.7,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 55,
+      "everCompoundFailurePct": 50,
+      "chronicFailurePct": 1.7,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 85,
+      "everAnyFailurePct": 54.2,
+      "everCompoundFailurePct": 50,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 57.5,
+      "everCompoundFailurePct": 49.2,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 53.3,
+      "everCompoundFailurePct": 51.7,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 55.8,
+      "everCompoundFailurePct": 52.5,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 85,
+      "everAnyFailurePct": 55.8,
+      "everCompoundFailurePct": 52.5,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 55.8,
+      "everCompoundFailurePct": 51.7,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 5
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 53.3,
+      "everCompoundFailurePct": 50,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 88.3,
+      "everAnyFailurePct": 50.8,
+      "everCompoundFailurePct": 47.5,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 5.8
+    },
+    {
+      "finalStablePct": 92.5,
+      "everAnyFailurePct": 53.3,
+      "everCompoundFailurePct": 50.8,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 88.3,
+      "everAnyFailurePct": 52.5,
+      "everCompoundFailurePct": 49.2,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 88.3,
+      "everAnyFailurePct": 55.8,
+      "everCompoundFailurePct": 52.5,
+      "chronicFailurePct": 10,
+      "everDisplacedPct": 15.8
+    },
+    {
+      "finalStablePct": 92.5,
+      "everAnyFailurePct": 58.3,
+      "everCompoundFailurePct": 57.5,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 11.7
+    },
+    {
+      "finalStablePct": 95,
+      "everAnyFailurePct": 53.3,
+      "everCompoundFailurePct": 50.8,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 5
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 42.5,
+      "everCompoundFailurePct": 41.7,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 49.2,
+      "everCompoundFailurePct": 47.5,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 88.3,
+      "everAnyFailurePct": 57.5,
+      "everCompoundFailurePct": 54.2,
+      "chronicFailurePct": 6.7,
+      "everDisplacedPct": 14.2
+    },
+    {
+      "finalStablePct": 92.5,
+      "everAnyFailurePct": 53.3,
+      "everCompoundFailurePct": 52.5,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 53.3,
+      "everCompoundFailurePct": 50.8,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 45,
+      "everCompoundFailurePct": 42.5,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 93.3,
+      "everAnyFailurePct": 55,
+      "everCompoundFailurePct": 48.3,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 5
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 54.2,
+      "everCompoundFailurePct": 52.5,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 48.3,
+      "everCompoundFailurePct": 46.7,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 52.5,
+      "everCompoundFailurePct": 50,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 83.3,
+      "everAnyFailurePct": 54.2,
+      "everCompoundFailurePct": 50.8,
+      "chronicFailurePct": 9.2,
+      "everDisplacedPct": 17.5
+    },
+    {
+      "finalStablePct": 85,
+      "everAnyFailurePct": 55,
+      "everCompoundFailurePct": 54.2,
+      "chronicFailurePct": 6.7,
+      "everDisplacedPct": 10.8
+    },
+    {
+      "finalStablePct": 86.7,
+      "everAnyFailurePct": 53.3,
+      "everCompoundFailurePct": 50.8,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 50,
+      "everCompoundFailurePct": 47.5,
+      "chronicFailurePct": 7.5,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 84.2,
+      "everAnyFailurePct": 58.3,
+      "everCompoundFailurePct": 55.8,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 13.3
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 50,
+      "everCompoundFailurePct": 45.8,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 5.8
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 55,
+      "everCompoundFailurePct": 53.3,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 14.2
+    },
+    {
+      "finalStablePct": 87.5,
+      "everAnyFailurePct": 50.8,
+      "everCompoundFailurePct": 46.7,
+      "chronicFailurePct": 8.3,
+      "everDisplacedPct": 13.3
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 55.8,
+      "everCompoundFailurePct": 51.7,
+      "chronicFailurePct": 1.7,
+      "everDisplacedPct": 5.8
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 50,
+      "everCompoundFailurePct": 46.7,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 12.5
+    },
+    {
+      "finalStablePct": 95.8,
+      "everAnyFailurePct": 52.5,
+      "everCompoundFailurePct": 49.2,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 92.5,
+      "everAnyFailurePct": 57.5,
+      "everCompoundFailurePct": 50,
+      "chronicFailurePct": 1.7,
+      "everDisplacedPct": 5.8
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 57.5,
+      "everCompoundFailurePct": 54.2,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 11.7
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 57.5,
+      "everCompoundFailurePct": 53.3,
+      "chronicFailurePct": 6.7,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 92.5,
+      "everAnyFailurePct": 45,
+      "everCompoundFailurePct": 40,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 52.5,
+      "everCompoundFailurePct": 48.3,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 87.5,
+      "everAnyFailurePct": 51.7,
+      "everCompoundFailurePct": 48.3,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 45.8,
+      "everCompoundFailurePct": 42.5,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 11.7
+    },
+    {
+      "finalStablePct": 86.7,
+      "everAnyFailurePct": 57.5,
+      "everCompoundFailurePct": 54.2,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 10.8
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 44.2,
+      "everCompoundFailurePct": 38.3,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 88.3,
+      "everAnyFailurePct": 49.2,
+      "everCompoundFailurePct": 46.7,
+      "chronicFailurePct": 1.7,
+      "everDisplacedPct": 10.8
+    },
+    {
+      "finalStablePct": 86.7,
+      "everAnyFailurePct": 61.7,
+      "everCompoundFailurePct": 60,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 95,
+      "everAnyFailurePct": 54.2,
+      "everCompoundFailurePct": 50.8,
+      "chronicFailurePct": 1.7,
+      "everDisplacedPct": 5.8
+    },
+    {
+      "finalStablePct": 87.5,
+      "everAnyFailurePct": 52.5,
+      "everCompoundFailurePct": 50,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 87.5,
+      "everAnyFailurePct": 53.3,
+      "everCompoundFailurePct": 52.5,
+      "chronicFailurePct": 9.2,
+      "everDisplacedPct": 11.7
+    },
+    {
+      "finalStablePct": 88.3,
+      "everAnyFailurePct": 52.5,
+      "everCompoundFailurePct": 50.8,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 55.8,
+      "everCompoundFailurePct": 54.2,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 50,
+      "everCompoundFailurePct": 49.2,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 88.3,
+      "everAnyFailurePct": 50.8,
+      "everCompoundFailurePct": 48.3,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 51.7,
+      "everCompoundFailurePct": 48.3,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 51.7,
+      "everCompoundFailurePct": 50,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 5.8
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 53.3,
+      "everCompoundFailurePct": 50.8,
+      "chronicFailurePct": 6.7,
+      "everDisplacedPct": 10.8
+    },
+    {
+      "finalStablePct": 88.3,
+      "everAnyFailurePct": 59.2,
+      "everCompoundFailurePct": 57.5,
+      "chronicFailurePct": 6.7,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 54.2,
+      "everCompoundFailurePct": 49.2,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 83.3,
+      "everAnyFailurePct": 56.7,
+      "everCompoundFailurePct": 53.3,
+      "chronicFailurePct": 7.5,
+      "everDisplacedPct": 11.7
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 49.2,
+      "everCompoundFailurePct": 47.5,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 93.3,
+      "everAnyFailurePct": 53.3,
+      "everCompoundFailurePct": 50,
+      "chronicFailurePct": 0.8,
+      "everDisplacedPct": 5
+    },
+    {
+      "finalStablePct": 87.5,
+      "everAnyFailurePct": 58.3,
+      "everCompoundFailurePct": 55,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 12.5
+    },
+    {
+      "finalStablePct": 87.5,
+      "everAnyFailurePct": 52.5,
+      "everCompoundFailurePct": 50,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 10.8
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 51.7,
+      "everCompoundFailurePct": 50,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 45,
+      "everCompoundFailurePct": 42.5,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 88.3,
+      "everAnyFailurePct": 45,
+      "everCompoundFailurePct": 42.5,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 92.5,
+      "everAnyFailurePct": 51.7,
+      "everCompoundFailurePct": 49.2,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 5.8
+    },
+    {
+      "finalStablePct": 85,
+      "everAnyFailurePct": 55,
+      "everCompoundFailurePct": 52.5,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 85.8,
+      "everAnyFailurePct": 53.3,
+      "everCompoundFailurePct": 52.5,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 92.5,
+      "everAnyFailurePct": 55,
+      "everCompoundFailurePct": 54.2,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 5.8
+    },
+    {
+      "finalStablePct": 88.3,
+      "everAnyFailurePct": 51.7,
+      "everCompoundFailurePct": 49.2,
+      "chronicFailurePct": 6.7,
+      "everDisplacedPct": 10.8
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 55.8,
+      "everCompoundFailurePct": 52.5,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 85,
+      "everAnyFailurePct": 50.8,
+      "everCompoundFailurePct": 47.5,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 14.2
+    },
+    {
+      "finalStablePct": 87.5,
+      "everAnyFailurePct": 52.5,
+      "everCompoundFailurePct": 49.2,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 54.2,
+      "everCompoundFailurePct": 48.3,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 5
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 50,
+      "everCompoundFailurePct": 48.3,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 60,
+      "everCompoundFailurePct": 59.2,
+      "chronicFailurePct": 1.7,
+      "everDisplacedPct": 5.8
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 53.3,
+      "everCompoundFailurePct": 51.7,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 58.3,
+      "everCompoundFailurePct": 56.7,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 4.2
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 53.3,
+      "everCompoundFailurePct": 49.2,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 5
+    },
+    {
+      "finalStablePct": 93.3,
+      "everAnyFailurePct": 47.5,
+      "everCompoundFailurePct": 44.2,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 96.7,
+      "everAnyFailurePct": 45.8,
+      "everCompoundFailurePct": 41.7,
+      "chronicFailurePct": 0,
+      "everDisplacedPct": 3.3
+    },
+    {
+      "finalStablePct": 85,
+      "everAnyFailurePct": 53.3,
+      "everCompoundFailurePct": 51.7,
+      "chronicFailurePct": 6.7,
+      "everDisplacedPct": 11.7
+    },
+    {
+      "finalStablePct": 85,
+      "everAnyFailurePct": 55,
+      "everCompoundFailurePct": 49.2,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 10.8
+    },
+    {
+      "finalStablePct": 92.5,
+      "everAnyFailurePct": 47.5,
+      "everCompoundFailurePct": 44.2,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 92.5,
+      "everAnyFailurePct": 50.8,
+      "everCompoundFailurePct": 45.8,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 5
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 49.2,
+      "everCompoundFailurePct": 45.8,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 55,
+      "everCompoundFailurePct": 51.7,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 12.5
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 54.2,
+      "everCompoundFailurePct": 49.2,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 88.3,
+      "everAnyFailurePct": 58.3,
+      "everCompoundFailurePct": 54.2,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 56.7,
+      "everCompoundFailurePct": 56.7,
+      "chronicFailurePct": 1.7,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 92.5,
+      "everAnyFailurePct": 51.7,
+      "everCompoundFailurePct": 48.3,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 52.5,
+      "everCompoundFailurePct": 50.8,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 59.2,
+      "everCompoundFailurePct": 58.3,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 5.8
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 46.7,
+      "everCompoundFailurePct": 42.5,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 88.3,
+      "everAnyFailurePct": 61.7,
+      "everCompoundFailurePct": 59.2,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 87.5,
+      "everAnyFailurePct": 55.8,
+      "everCompoundFailurePct": 53.3,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 88.3,
+      "everAnyFailurePct": 51.7,
+      "everCompoundFailurePct": 47.5,
+      "chronicFailurePct": 8.3,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 93.3,
+      "everAnyFailurePct": 45,
+      "everCompoundFailurePct": 42.5,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 50,
+      "everCompoundFailurePct": 47.5,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 5.8
+    },
+    {
+      "finalStablePct": 88.3,
+      "everAnyFailurePct": 60,
+      "everCompoundFailurePct": 53.3,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 53.3,
+      "everCompoundFailurePct": 50.8,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 5
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 53.3,
+      "everCompoundFailurePct": 47.5,
+      "chronicFailurePct": 1.7,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 83.3,
+      "everAnyFailurePct": 55.8,
+      "everCompoundFailurePct": 53.3,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 87.5,
+      "everAnyFailurePct": 46.7,
+      "everCompoundFailurePct": 44.2,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 85.8,
+      "everAnyFailurePct": 55,
+      "everCompoundFailurePct": 52.5,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 49.2,
+      "everCompoundFailurePct": 46.7,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 56.7,
+      "everCompoundFailurePct": 50,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 42.5,
+      "everCompoundFailurePct": 38.3,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 92.5,
+      "everAnyFailurePct": 56.7,
+      "everCompoundFailurePct": 51.7,
+      "chronicFailurePct": 1.7,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 87.5,
+      "everAnyFailurePct": 48.3,
+      "everCompoundFailurePct": 45.8,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 84.2,
+      "everAnyFailurePct": 55.8,
+      "everCompoundFailurePct": 53.3,
+      "chronicFailurePct": 10,
+      "everDisplacedPct": 11.7
+    },
+    {
+      "finalStablePct": 92.5,
+      "everAnyFailurePct": 42.5,
+      "everCompoundFailurePct": 39.2,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 5.8
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 55,
+      "everCompoundFailurePct": 52.5,
+      "chronicFailurePct": 1.7,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 95,
+      "everAnyFailurePct": 52.5,
+      "everCompoundFailurePct": 52.5,
+      "chronicFailurePct": 1.7,
+      "everDisplacedPct": 5.8
+    },
+    {
+      "finalStablePct": 93.3,
+      "everAnyFailurePct": 50,
+      "everCompoundFailurePct": 47.5,
+      "chronicFailurePct": 1.7,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 49.2,
+      "everCompoundFailurePct": 47.5,
+      "chronicFailurePct": 6.7,
+      "everDisplacedPct": 12.5
+    },
+    {
+      "finalStablePct": 93.3,
+      "everAnyFailurePct": 54.2,
+      "everCompoundFailurePct": 50,
+      "chronicFailurePct": 1.7,
+      "everDisplacedPct": 5
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 58.3,
+      "everCompoundFailurePct": 55.8,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 5
+    },
+    {
+      "finalStablePct": 88.3,
+      "everAnyFailurePct": 49.2,
+      "everCompoundFailurePct": 47.5,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 12.5
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 51.7,
+      "everCompoundFailurePct": 50,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 85.8,
+      "everAnyFailurePct": 47.5,
+      "everCompoundFailurePct": 44.2,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 87.5,
+      "everAnyFailurePct": 58.3,
+      "everCompoundFailurePct": 55.8,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 93.3,
+      "everAnyFailurePct": 53.3,
+      "everCompoundFailurePct": 51.7,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 5
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 50.8,
+      "everCompoundFailurePct": 50,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 86.7,
+      "everAnyFailurePct": 51.7,
+      "everCompoundFailurePct": 46.7,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 86.7,
+      "everAnyFailurePct": 54.2,
+      "everCompoundFailurePct": 52.5,
+      "chronicFailurePct": 7.5,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 51.7,
+      "everCompoundFailurePct": 47.5,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 5.8
+    },
+    {
+      "finalStablePct": 94.2,
+      "everAnyFailurePct": 50.8,
+      "everCompoundFailurePct": 48.3,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 4.2
+    },
+    {
+      "finalStablePct": 86.7,
+      "everAnyFailurePct": 54.2,
+      "everCompoundFailurePct": 54.2,
+      "chronicFailurePct": 7.5,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 85.8,
+      "everAnyFailurePct": 60.8,
+      "everCompoundFailurePct": 55.8,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 87.5,
+      "everAnyFailurePct": 55.8,
+      "everCompoundFailurePct": 52.5,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 88.3,
+      "everAnyFailurePct": 63.3,
+      "everCompoundFailurePct": 60,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 50.8,
+      "everCompoundFailurePct": 48.3,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 54.2,
+      "everCompoundFailurePct": 51.7,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 46.7,
+      "everCompoundFailurePct": 42.5,
+      "chronicFailurePct": 1.7,
+      "everDisplacedPct": 3.3
+    },
+    {
+      "finalStablePct": 93.3,
+      "everAnyFailurePct": 51.7,
+      "everCompoundFailurePct": 50,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 49.2,
+      "everCompoundFailurePct": 46.7,
+      "chronicFailurePct": 1.7,
+      "everDisplacedPct": 4.2
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 48.3,
+      "everCompoundFailurePct": 45,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 5.8
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 50.8,
+      "everCompoundFailurePct": 47.5,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 87.5,
+      "everAnyFailurePct": 57.5,
+      "everCompoundFailurePct": 55,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 11.7
+    },
+    {
+      "finalStablePct": 88.3,
+      "everAnyFailurePct": 47.5,
+      "everCompoundFailurePct": 45.8,
+      "chronicFailurePct": 7.5,
+      "everDisplacedPct": 11.7
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 54.2,
+      "everCompoundFailurePct": 51.7,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 88.3,
+      "everAnyFailurePct": 50.8,
+      "everCompoundFailurePct": 50,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 52.5,
+      "everCompoundFailurePct": 47.5,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 95,
+      "everAnyFailurePct": 52.5,
+      "everCompoundFailurePct": 47.5,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 3.3
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 48.3,
+      "everCompoundFailurePct": 45.8,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 55,
+      "everCompoundFailurePct": 50.8,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 10.8
+    },
+    {
+      "finalStablePct": 92.5,
+      "everAnyFailurePct": 57.5,
+      "everCompoundFailurePct": 53.3,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 52.5,
+      "everCompoundFailurePct": 49.2,
+      "chronicFailurePct": 6.7,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 51.7,
+      "everCompoundFailurePct": 50,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 5
+    },
+    {
+      "finalStablePct": 95,
+      "everAnyFailurePct": 48.3,
+      "everCompoundFailurePct": 46.7,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 86.7,
+      "everAnyFailurePct": 50.8,
+      "everCompoundFailurePct": 48.3,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 5.8
+    },
+    {
+      "finalStablePct": 88.3,
+      "everAnyFailurePct": 53.3,
+      "everCompoundFailurePct": 50.8,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 5.8
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 50,
+      "everCompoundFailurePct": 47.5,
+      "chronicFailurePct": 7.5,
+      "everDisplacedPct": 11.7
+    },
+    {
+      "finalStablePct": 92.5,
+      "everAnyFailurePct": 54.2,
+      "everCompoundFailurePct": 52.5,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 56.7,
+      "everCompoundFailurePct": 52.5,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 86.7,
+      "everAnyFailurePct": 55,
+      "everCompoundFailurePct": 50.8,
+      "chronicFailurePct": 6.7,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 88.3,
+      "everAnyFailurePct": 48.3,
+      "everCompoundFailurePct": 42.5,
+      "chronicFailurePct": 6.7,
+      "everDisplacedPct": 11.7
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 55,
+      "everCompoundFailurePct": 50.8,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 88.3,
+      "everAnyFailurePct": 56.7,
+      "everCompoundFailurePct": 53.3,
+      "chronicFailurePct": 6.7,
+      "everDisplacedPct": 13.3
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 51.7,
+      "everCompoundFailurePct": 45.8,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 92.5,
+      "everAnyFailurePct": 55,
+      "everCompoundFailurePct": 52.5,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 87.5,
+      "everAnyFailurePct": 53.3,
+      "everCompoundFailurePct": 49.2,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 56.7,
+      "everCompoundFailurePct": 55.8,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 56.7,
+      "everCompoundFailurePct": 49.2,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 10.8
+    },
+    {
+      "finalStablePct": 94.2,
+      "everAnyFailurePct": 44.2,
+      "everCompoundFailurePct": 41.7,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 86.7,
+      "everAnyFailurePct": 61.7,
+      "everCompoundFailurePct": 57.5,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 54.2,
+      "everCompoundFailurePct": 51.7,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 11.7
+    },
+    {
+      "finalStablePct": 87.5,
+      "everAnyFailurePct": 50.8,
+      "everCompoundFailurePct": 47.5,
+      "chronicFailurePct": 6.7,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 87.5,
+      "everAnyFailurePct": 46.7,
+      "everCompoundFailurePct": 43.3,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 92.5,
+      "everAnyFailurePct": 54.2,
+      "everCompoundFailurePct": 52.5,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 88.3,
+      "everAnyFailurePct": 55.8,
+      "everCompoundFailurePct": 55,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 83.3,
+      "everAnyFailurePct": 57.5,
+      "everCompoundFailurePct": 53.3,
+      "chronicFailurePct": 6.7,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 94.2,
+      "everAnyFailurePct": 46.7,
+      "everCompoundFailurePct": 45.8,
+      "chronicFailurePct": 1.7,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 49.2,
+      "everCompoundFailurePct": 45.8,
+      "chronicFailurePct": 1.7,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 56.7,
+      "everCompoundFailurePct": 56.7,
+      "chronicFailurePct": 6.7,
+      "everDisplacedPct": 12.5
+    },
+    {
+      "finalStablePct": 85,
+      "everAnyFailurePct": 58.3,
+      "everCompoundFailurePct": 53.3,
+      "chronicFailurePct": 6.7,
+      "everDisplacedPct": 10.8
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 56.7,
+      "everCompoundFailurePct": 53.3,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 87.5,
+      "everAnyFailurePct": 53.3,
+      "everCompoundFailurePct": 52.5,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 93.3,
+      "everAnyFailurePct": 50.8,
+      "everCompoundFailurePct": 48.3,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 88.3,
+      "everAnyFailurePct": 56.7,
+      "everCompoundFailurePct": 56.7,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 88.3,
+      "everAnyFailurePct": 52.5,
+      "everCompoundFailurePct": 52.5,
+      "chronicFailurePct": 1.7,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 92.5,
+      "everAnyFailurePct": 47.5,
+      "everCompoundFailurePct": 45,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 55,
+      "everCompoundFailurePct": 51.7,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 46.7,
+      "everCompoundFailurePct": 45,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 87.5,
+      "everAnyFailurePct": 55,
+      "everCompoundFailurePct": 52.5,
+      "chronicFailurePct": 6.7,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 55.8,
+      "everCompoundFailurePct": 51.7,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 92.5,
+      "everAnyFailurePct": 49.2,
+      "everCompoundFailurePct": 45,
+      "chronicFailurePct": 0.8,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 48.3,
+      "everCompoundFailurePct": 45,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 58.3,
+      "everCompoundFailurePct": 54.2,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 59.2,
+      "everCompoundFailurePct": 57.5,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 15.8
+    },
+    {
+      "finalStablePct": 86.7,
+      "everAnyFailurePct": 47.5,
+      "everCompoundFailurePct": 45.8,
+      "chronicFailurePct": 9.2,
+      "everDisplacedPct": 13.3
+    },
+    {
+      "finalStablePct": 92.5,
+      "everAnyFailurePct": 55.8,
+      "everCompoundFailurePct": 50,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 88.3,
+      "everAnyFailurePct": 57.5,
+      "everCompoundFailurePct": 54.2,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 10.8
+    },
+    {
+      "finalStablePct": 94.2,
+      "everAnyFailurePct": 48.3,
+      "everCompoundFailurePct": 45.8,
+      "chronicFailurePct": 1.7,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 56.7,
+      "everCompoundFailurePct": 54.2,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 10.8
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 51.7,
+      "everCompoundFailurePct": 46.7,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 5.8
+    },
+    {
+      "finalStablePct": 88.3,
+      "everAnyFailurePct": 52.5,
+      "everCompoundFailurePct": 49.2,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 87.5,
+      "everAnyFailurePct": 50.8,
+      "everCompoundFailurePct": 49.2,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 10.8
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 53.3,
+      "everCompoundFailurePct": 50.8,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 85,
+      "everAnyFailurePct": 49.2,
+      "everCompoundFailurePct": 48.3,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 86.7,
+      "everAnyFailurePct": 52.5,
+      "everCompoundFailurePct": 49.2,
+      "chronicFailurePct": 7.5,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 92.5,
+      "everAnyFailurePct": 51.7,
+      "everCompoundFailurePct": 49.2,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 54.2,
+      "everCompoundFailurePct": 52.5,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 45,
+      "everCompoundFailurePct": 41.7,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 5.8
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 51.7,
+      "everCompoundFailurePct": 48.3,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 50.8,
+      "everCompoundFailurePct": 48.3,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 11.7
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 54.2,
+      "everCompoundFailurePct": 50.8,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 83.3,
+      "everAnyFailurePct": 56.7,
+      "everCompoundFailurePct": 53.3,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 87.5,
+      "everAnyFailurePct": 58.3,
+      "everCompoundFailurePct": 55.8,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 12.5
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 58.3,
+      "everCompoundFailurePct": 55.8,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 11.7
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 55,
+      "everCompoundFailurePct": 53.3,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 92.5,
+      "everAnyFailurePct": 51.7,
+      "everCompoundFailurePct": 48.3,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 50.8,
+      "everCompoundFailurePct": 48.3,
+      "chronicFailurePct": 6.7,
+      "everDisplacedPct": 11.7
+    },
+    {
+      "finalStablePct": 87.5,
+      "everAnyFailurePct": 58.3,
+      "everCompoundFailurePct": 54.2,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 85,
+      "everAnyFailurePct": 55.8,
+      "everCompoundFailurePct": 55.8,
+      "chronicFailurePct": 7.5,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 88.3,
+      "everAnyFailurePct": 51.7,
+      "everCompoundFailurePct": 50.8,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 51.7,
+      "everCompoundFailurePct": 49.2,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 86.7,
+      "everAnyFailurePct": 46.7,
+      "everCompoundFailurePct": 43.3,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 54.2,
+      "everCompoundFailurePct": 50,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 56.7,
+      "everCompoundFailurePct": 54.2,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 5
+    },
+    {
+      "finalStablePct": 85,
+      "everAnyFailurePct": 59.2,
+      "everCompoundFailurePct": 55.8,
+      "chronicFailurePct": 6.7,
+      "everDisplacedPct": 11.7
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 57.5,
+      "everCompoundFailurePct": 54.2,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 92.5,
+      "everAnyFailurePct": 55.8,
+      "everCompoundFailurePct": 51.7,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 92.5,
+      "everAnyFailurePct": 53.3,
+      "everCompoundFailurePct": 48.3,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 5.8
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 51.7,
+      "everCompoundFailurePct": 50.8,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 10.8
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 48.3,
+      "everCompoundFailurePct": 45,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 60,
+      "everCompoundFailurePct": 55,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 5.8
+    },
+    {
+      "finalStablePct": 88.3,
+      "everAnyFailurePct": 45.8,
+      "everCompoundFailurePct": 44.2,
+      "chronicFailurePct": 6.7,
+      "everDisplacedPct": 11.7
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 56.7,
+      "everCompoundFailurePct": 50.8,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 82.5,
+      "everAnyFailurePct": 58.3,
+      "everCompoundFailurePct": 55.8,
+      "chronicFailurePct": 7.5,
+      "everDisplacedPct": 12.5
+    },
+    {
+      "finalStablePct": 88.3,
+      "everAnyFailurePct": 56.7,
+      "everCompoundFailurePct": 55,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 51.7,
+      "everCompoundFailurePct": 49.2,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 87.5,
+      "everAnyFailurePct": 55,
+      "everCompoundFailurePct": 53.3,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 92.5,
+      "everAnyFailurePct": 55,
+      "everCompoundFailurePct": 51.7,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 10.8
+    },
+    {
+      "finalStablePct": 93.3,
+      "everAnyFailurePct": 50,
+      "everCompoundFailurePct": 49.2,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 5.8
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 52.5,
+      "everCompoundFailurePct": 50,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 94.2,
+      "everAnyFailurePct": 45,
+      "everCompoundFailurePct": 45,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 56.7,
+      "everCompoundFailurePct": 55,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 88.3,
+      "everAnyFailurePct": 57.5,
+      "everCompoundFailurePct": 52.5,
+      "chronicFailurePct": 8.3,
+      "everDisplacedPct": 11.7
+    },
+    {
+      "finalStablePct": 85,
+      "everAnyFailurePct": 45,
+      "everCompoundFailurePct": 44.2,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 46.7,
+      "everCompoundFailurePct": 43.3,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 87.5,
+      "everAnyFailurePct": 44.2,
+      "everCompoundFailurePct": 42.5,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 93.3,
+      "everAnyFailurePct": 52.5,
+      "everCompoundFailurePct": 48.3,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 50,
+      "everCompoundFailurePct": 45.8,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 54.2,
+      "everCompoundFailurePct": 51.7,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 58.3,
+      "everCompoundFailurePct": 51.7,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 11.7
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 48.3,
+      "everCompoundFailurePct": 45,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 5.8
+    },
+    {
+      "finalStablePct": 94.2,
+      "everAnyFailurePct": 46.7,
+      "everCompoundFailurePct": 43.3,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 87.5,
+      "everAnyFailurePct": 50.8,
+      "everCompoundFailurePct": 49.2,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 54.2,
+      "everCompoundFailurePct": 53.3,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 11.7
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 57.5,
+      "everCompoundFailurePct": 53.3,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 5.8
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 60.8,
+      "everCompoundFailurePct": 58.3,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 5.8
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 56.7,
+      "everCompoundFailurePct": 55,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 50.8,
+      "everCompoundFailurePct": 48.3,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 88.3,
+      "everAnyFailurePct": 58.3,
+      "everCompoundFailurePct": 56.7,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 12.5
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 53.3,
+      "everCompoundFailurePct": 50.8,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 46.7,
+      "everCompoundFailurePct": 43.3,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 52.5,
+      "everCompoundFailurePct": 50.8,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 59.2,
+      "everCompoundFailurePct": 55.8,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 11.7
+    },
+    {
+      "finalStablePct": 86.7,
+      "everAnyFailurePct": 55.8,
+      "everCompoundFailurePct": 53.3,
+      "chronicFailurePct": 8.3,
+      "everDisplacedPct": 13.3
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 61.7,
+      "everCompoundFailurePct": 59.2,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 10.8
+    },
+    {
+      "finalStablePct": 93.3,
+      "everAnyFailurePct": 46.7,
+      "everCompoundFailurePct": 43.3,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 5
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 46.7,
+      "everCompoundFailurePct": 42.5,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 86.7,
+      "everAnyFailurePct": 51.7,
+      "everCompoundFailurePct": 50.8,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 12.5
+    },
+    {
+      "finalStablePct": 94.2,
+      "everAnyFailurePct": 49.2,
+      "everCompoundFailurePct": 46.7,
+      "chronicFailurePct": 1.7,
+      "everDisplacedPct": 3.3
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 56.7,
+      "everCompoundFailurePct": 53.3,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 5.8
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 52.5,
+      "everCompoundFailurePct": 48.3,
+      "chronicFailurePct": 7.5,
+      "everDisplacedPct": 10.8
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 55,
+      "everCompoundFailurePct": 51.7,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 57.5,
+      "everCompoundFailurePct": 54.2,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 10.8
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 59.2,
+      "everCompoundFailurePct": 55,
+      "chronicFailurePct": 1.7,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 87.5,
+      "everAnyFailurePct": 59.2,
+      "everCompoundFailurePct": 55,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 87.5,
+      "everAnyFailurePct": 59.2,
+      "everCompoundFailurePct": 55.8,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 10.8
+    },
+    {
+      "finalStablePct": 87.5,
+      "everAnyFailurePct": 49.2,
+      "everCompoundFailurePct": 45,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 92.5,
+      "everAnyFailurePct": 45.8,
+      "everCompoundFailurePct": 43.3,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 49.2,
+      "everCompoundFailurePct": 47.5,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 85.8,
+      "everAnyFailurePct": 54.2,
+      "everCompoundFailurePct": 52.5,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 13.3
+    },
+    {
+      "finalStablePct": 87.5,
+      "everAnyFailurePct": 60,
+      "everCompoundFailurePct": 55.8,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 88.3,
+      "everAnyFailurePct": 48.3,
+      "everCompoundFailurePct": 45.8,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 55.8,
+      "everCompoundFailurePct": 50.8,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 50.8,
+      "everCompoundFailurePct": 45.8,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 5.8
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 55.8,
+      "everCompoundFailurePct": 51.7,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 53.3,
+      "everCompoundFailurePct": 49.2,
+      "chronicFailurePct": 1.7,
+      "everDisplacedPct": 4.2
+    },
+    {
+      "finalStablePct": 87.5,
+      "everAnyFailurePct": 51.7,
+      "everCompoundFailurePct": 48.3,
+      "chronicFailurePct": 6.7,
+      "everDisplacedPct": 11.7
+    },
+    {
+      "finalStablePct": 94.2,
+      "everAnyFailurePct": 54.2,
+      "everCompoundFailurePct": 51.7,
+      "chronicFailurePct": 1.7,
+      "everDisplacedPct": 5.8
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 62.5,
+      "everCompoundFailurePct": 60,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 12.5
+    },
+    {
+      "finalStablePct": 82.5,
+      "everAnyFailurePct": 50,
+      "everCompoundFailurePct": 50,
+      "chronicFailurePct": 7.5,
+      "everDisplacedPct": 12.5
+    },
+    {
+      "finalStablePct": 93.3,
+      "everAnyFailurePct": 50.8,
+      "everCompoundFailurePct": 49.2,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 5.8
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 52.5,
+      "everCompoundFailurePct": 45.8,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 5.8
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 45,
+      "everCompoundFailurePct": 41.7,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 5.8
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 53.3,
+      "everCompoundFailurePct": 50.8,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 87.5,
+      "everAnyFailurePct": 55,
+      "everCompoundFailurePct": 54.2,
+      "chronicFailurePct": 8.3,
+      "everDisplacedPct": 10.8
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 50,
+      "everCompoundFailurePct": 48.3,
+      "chronicFailurePct": 1.7,
+      "everDisplacedPct": 5.8
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 52.5,
+      "everCompoundFailurePct": 47.5,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 53.3,
+      "everCompoundFailurePct": 50.8,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 86.7,
+      "everAnyFailurePct": 45,
+      "everCompoundFailurePct": 39.2,
+      "chronicFailurePct": 6.7,
+      "everDisplacedPct": 10.8
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 61.7,
+      "everCompoundFailurePct": 58.3,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 10.8
+    },
+    {
+      "finalStablePct": 94.2,
+      "everAnyFailurePct": 55,
+      "everCompoundFailurePct": 52.5,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 85.8,
+      "everAnyFailurePct": 48.3,
+      "everCompoundFailurePct": 46.7,
+      "chronicFailurePct": 6.7,
+      "everDisplacedPct": 10.8
+    },
+    {
+      "finalStablePct": 93.3,
+      "everAnyFailurePct": 49.2,
+      "everCompoundFailurePct": 45.8,
+      "chronicFailurePct": 1.7,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 51.7,
+      "everCompoundFailurePct": 47.5,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 10.8
+    },
+    {
+      "finalStablePct": 86.7,
+      "everAnyFailurePct": 55.8,
+      "everCompoundFailurePct": 50.8,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 85.8,
+      "everAnyFailurePct": 56.7,
+      "everCompoundFailurePct": 53.3,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 93.3,
+      "everAnyFailurePct": 53.3,
+      "everCompoundFailurePct": 51.7,
+      "chronicFailurePct": 0.8,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 88.3,
+      "everAnyFailurePct": 60,
+      "everCompoundFailurePct": 50,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 88.3,
+      "everAnyFailurePct": 56.7,
+      "everCompoundFailurePct": 51.7,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 41.7,
+      "everCompoundFailurePct": 37.5,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 52.5,
+      "everCompoundFailurePct": 48.3,
+      "chronicFailurePct": 1.7,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 54.2,
+      "everCompoundFailurePct": 54.2,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 87.5,
+      "everAnyFailurePct": 50.8,
+      "everCompoundFailurePct": 48.3,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 87.5,
+      "everAnyFailurePct": 60,
+      "everCompoundFailurePct": 54.2,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 94.2,
+      "everAnyFailurePct": 50,
+      "everCompoundFailurePct": 46.7,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 86.7,
+      "everAnyFailurePct": 54.2,
+      "everCompoundFailurePct": 52.5,
+      "chronicFailurePct": 6.7,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 50,
+      "everCompoundFailurePct": 47.5,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 50,
+      "everCompoundFailurePct": 48.3,
+      "chronicFailurePct": 0.8,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 92.5,
+      "everAnyFailurePct": 48.3,
+      "everCompoundFailurePct": 40.8,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 5.8
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 61.7,
+      "everCompoundFailurePct": 60,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 53.3,
+      "everCompoundFailurePct": 48.3,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 5.8
+    },
+    {
+      "finalStablePct": 85,
+      "everAnyFailurePct": 56.7,
+      "everCompoundFailurePct": 53.3,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 15
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 51.7,
+      "everCompoundFailurePct": 48.3,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 10.8
+    },
+    {
+      "finalStablePct": 95,
+      "everAnyFailurePct": 54.2,
+      "everCompoundFailurePct": 52.5,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 92.5,
+      "everAnyFailurePct": 51.7,
+      "everCompoundFailurePct": 47.5,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 48.3,
+      "everCompoundFailurePct": 46.7,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 5.8
+    },
+    {
+      "finalStablePct": 95,
+      "everAnyFailurePct": 52.5,
+      "everCompoundFailurePct": 46.7,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 88.3,
+      "everAnyFailurePct": 52.5,
+      "everCompoundFailurePct": 50,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 87.5,
+      "everAnyFailurePct": 59.2,
+      "everCompoundFailurePct": 55.8,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 10.8
+    },
+    {
+      "finalStablePct": 84.2,
+      "everAnyFailurePct": 55,
+      "everCompoundFailurePct": 49.2,
+      "chronicFailurePct": 9.2,
+      "everDisplacedPct": 13.3
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 45.8,
+      "everCompoundFailurePct": 43.3,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 92.5,
+      "everAnyFailurePct": 52.5,
+      "everCompoundFailurePct": 48.3,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 88.3,
+      "everAnyFailurePct": 58.3,
+      "everCompoundFailurePct": 52.5,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 51.7,
+      "everCompoundFailurePct": 49.2,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 50,
+      "everCompoundFailurePct": 45,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 55.8,
+      "everCompoundFailurePct": 51.7,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 50,
+      "everCompoundFailurePct": 46.7,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 52.5,
+      "everCompoundFailurePct": 45,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 10.8
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 47.5,
+      "everCompoundFailurePct": 44.2,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 88.3,
+      "everAnyFailurePct": 57.5,
+      "everCompoundFailurePct": 53.3,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 50.8,
+      "everCompoundFailurePct": 48.3,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 55.8,
+      "everCompoundFailurePct": 53.3,
+      "chronicFailurePct": 6.7,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 86.7,
+      "everAnyFailurePct": 53.3,
+      "everCompoundFailurePct": 50,
+      "chronicFailurePct": 8.3,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 88.3,
+      "everAnyFailurePct": 46.7,
+      "everCompoundFailurePct": 45,
+      "chronicFailurePct": 6.7,
+      "everDisplacedPct": 10.8
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 58.3,
+      "everCompoundFailurePct": 55,
+      "chronicFailurePct": 6.7,
+      "everDisplacedPct": 12.5
+    },
+    {
+      "finalStablePct": 93.3,
+      "everAnyFailurePct": 48.3,
+      "everCompoundFailurePct": 45,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 58.3,
+      "everCompoundFailurePct": 55,
+      "chronicFailurePct": 7.5,
+      "everDisplacedPct": 11.7
+    },
+    {
+      "finalStablePct": 86.7,
+      "everAnyFailurePct": 56.7,
+      "everCompoundFailurePct": 54.2,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 93.3,
+      "everAnyFailurePct": 52.5,
+      "everCompoundFailurePct": 50.8,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 5
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 49.2,
+      "everCompoundFailurePct": 45.8,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 94.2,
+      "everAnyFailurePct": 53.3,
+      "everCompoundFailurePct": 49.2,
+      "chronicFailurePct": 0,
+      "everDisplacedPct": 4.2
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 60,
+      "everCompoundFailurePct": 52.5,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 10.8
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 51.7,
+      "everCompoundFailurePct": 50,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 56.7,
+      "everCompoundFailurePct": 52.5,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 42.5,
+      "everCompoundFailurePct": 40,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 12.5
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 48.3,
+      "everCompoundFailurePct": 45,
+      "chronicFailurePct": 7.5,
+      "everDisplacedPct": 11.7
+    },
+    {
+      "finalStablePct": 92.5,
+      "everAnyFailurePct": 53.3,
+      "everCompoundFailurePct": 53.3,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 5.8
+    },
+    {
+      "finalStablePct": 95,
+      "everAnyFailurePct": 43.3,
+      "everCompoundFailurePct": 41.7,
+      "chronicFailurePct": 0.8,
+      "everDisplacedPct": 5
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 55.8,
+      "everCompoundFailurePct": 51.7,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 83.3,
+      "everAnyFailurePct": 56.7,
+      "everCompoundFailurePct": 54.2,
+      "chronicFailurePct": 9.2,
+      "everDisplacedPct": 15
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 59.2,
+      "everCompoundFailurePct": 57.5,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 52.5,
+      "everCompoundFailurePct": 45.8,
+      "chronicFailurePct": 1.7,
+      "everDisplacedPct": 4.2
+    },
+    {
+      "finalStablePct": 85.8,
+      "everAnyFailurePct": 57.5,
+      "everCompoundFailurePct": 54.2,
+      "chronicFailurePct": 7.5,
+      "everDisplacedPct": 12.5
+    },
+    {
+      "finalStablePct": 94.2,
+      "everAnyFailurePct": 60.8,
+      "everCompoundFailurePct": 55.8,
+      "chronicFailurePct": 0.8,
+      "everDisplacedPct": 5
+    },
+    {
+      "finalStablePct": 87.5,
+      "everAnyFailurePct": 55,
+      "everCompoundFailurePct": 52.5,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 13.3
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 51.7,
+      "everCompoundFailurePct": 50,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 85.8,
+      "everAnyFailurePct": 45,
+      "everCompoundFailurePct": 43.3,
+      "chronicFailurePct": 10,
+      "everDisplacedPct": 14.2
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 50.8,
+      "everCompoundFailurePct": 49.2,
+      "chronicFailurePct": 7.5,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 84.2,
+      "everAnyFailurePct": 45.8,
+      "everCompoundFailurePct": 42.5,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 86.7,
+      "everAnyFailurePct": 56.7,
+      "everCompoundFailurePct": 55,
+      "chronicFailurePct": 7.5,
+      "everDisplacedPct": 12.5
+    },
+    {
+      "finalStablePct": 87.5,
+      "everAnyFailurePct": 49.2,
+      "everCompoundFailurePct": 47.5,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 94.2,
+      "everAnyFailurePct": 61.7,
+      "everCompoundFailurePct": 58.3,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 50,
+      "everCompoundFailurePct": 49.2,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 54.2,
+      "everCompoundFailurePct": 51.7,
+      "chronicFailurePct": 6.7,
+      "everDisplacedPct": 13.3
+    },
+    {
+      "finalStablePct": 88.3,
+      "everAnyFailurePct": 51.7,
+      "everCompoundFailurePct": 50.8,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 10.8
+    },
+    {
+      "finalStablePct": 80,
+      "everAnyFailurePct": 60.8,
+      "everCompoundFailurePct": 57.5,
+      "chronicFailurePct": 12.5,
+      "everDisplacedPct": 18.3
+    },
+    {
+      "finalStablePct": 86.7,
+      "everAnyFailurePct": 53.3,
+      "everCompoundFailurePct": 51.7,
+      "chronicFailurePct": 9.2,
+      "everDisplacedPct": 13.3
+    },
+    {
+      "finalStablePct": 87.5,
+      "everAnyFailurePct": 56.7,
+      "everCompoundFailurePct": 54.2,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 12.5
+    },
+    {
+      "finalStablePct": 92.5,
+      "everAnyFailurePct": 52.5,
+      "everCompoundFailurePct": 48.3,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 87.5,
+      "everAnyFailurePct": 54.2,
+      "everCompoundFailurePct": 52.5,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 93.3,
+      "everAnyFailurePct": 54.2,
+      "everCompoundFailurePct": 48.3,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 85.8,
+      "everAnyFailurePct": 56.7,
+      "everCompoundFailurePct": 53.3,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 50,
+      "everCompoundFailurePct": 48.3,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 93.3,
+      "everAnyFailurePct": 55.8,
+      "everCompoundFailurePct": 53.3,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 88.3,
+      "everAnyFailurePct": 49.2,
+      "everCompoundFailurePct": 48.3,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 87.5,
+      "everAnyFailurePct": 53.3,
+      "everCompoundFailurePct": 50,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 57.5,
+      "everCompoundFailurePct": 53.3,
+      "chronicFailurePct": 6.7,
+      "everDisplacedPct": 10.8
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 50.8,
+      "everCompoundFailurePct": 50.8,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 12.5
+    },
+    {
+      "finalStablePct": 92.5,
+      "everAnyFailurePct": 47.5,
+      "everCompoundFailurePct": 43.3,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 5
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 49.2,
+      "everCompoundFailurePct": 47.5,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 51.7,
+      "everCompoundFailurePct": 48.3,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 45.8,
+      "everCompoundFailurePct": 45,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 44.2,
+      "everCompoundFailurePct": 40.8,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 86.7,
+      "everAnyFailurePct": 58.3,
+      "everCompoundFailurePct": 50.8,
+      "chronicFailurePct": 7.5,
+      "everDisplacedPct": 13.3
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 50,
+      "everCompoundFailurePct": 47.5,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 48.3,
+      "everCompoundFailurePct": 43.3,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 10
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 55.8,
+      "everCompoundFailurePct": 54.2,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 10.8
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 59.2,
+      "everCompoundFailurePct": 54.2,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 15.8
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 47.5,
+      "everCompoundFailurePct": 43.3,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 5
+    },
+    {
+      "finalStablePct": 87.5,
+      "everAnyFailurePct": 52.5,
+      "everCompoundFailurePct": 49.2,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 86.7,
+      "everAnyFailurePct": 60,
+      "everCompoundFailurePct": 58.3,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 93.3,
+      "everAnyFailurePct": 54.2,
+      "everCompoundFailurePct": 52.5,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 94.2,
+      "everAnyFailurePct": 39.2,
+      "everCompoundFailurePct": 35,
+      "chronicFailurePct": 1.7,
+      "everDisplacedPct": 5.8
+    },
+    {
+      "finalStablePct": 86.7,
+      "everAnyFailurePct": 54.2,
+      "everCompoundFailurePct": 50.8,
+      "chronicFailurePct": 6.7,
+      "everDisplacedPct": 12.5
+    },
+    {
+      "finalStablePct": 87.5,
+      "everAnyFailurePct": 55,
+      "everCompoundFailurePct": 52.5,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 11.7
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 50.8,
+      "everCompoundFailurePct": 49.2,
+      "chronicFailurePct": 5.8,
+      "everDisplacedPct": 12.5
+    },
+    {
+      "finalStablePct": 93.3,
+      "everAnyFailurePct": 50.8,
+      "everCompoundFailurePct": 48.3,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 93.3,
+      "everAnyFailurePct": 50.8,
+      "everCompoundFailurePct": 48.3,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 89.2,
+      "everAnyFailurePct": 54.2,
+      "everCompoundFailurePct": 53.3,
+      "chronicFailurePct": 1.7,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 49.2,
+      "everCompoundFailurePct": 47.5,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 94.2,
+      "everAnyFailurePct": 45,
+      "everCompoundFailurePct": 39.2,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 92.5,
+      "everAnyFailurePct": 53.3,
+      "everCompoundFailurePct": 50,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 7.5
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 55,
+      "everCompoundFailurePct": 53.3,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 55,
+      "everCompoundFailurePct": 47.5,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 8.3
+    },
+    {
+      "finalStablePct": 88.3,
+      "everAnyFailurePct": 60.8,
+      "everCompoundFailurePct": 57.5,
+      "chronicFailurePct": 4.2,
+      "everDisplacedPct": 13.3
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 46.7,
+      "everCompoundFailurePct": 45,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 47.5,
+      "everCompoundFailurePct": 45,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 90.8,
+      "everAnyFailurePct": 55.8,
+      "everCompoundFailurePct": 55,
+      "chronicFailurePct": 3.3,
+      "everDisplacedPct": 5.8
+    },
+    {
+      "finalStablePct": 90,
+      "everAnyFailurePct": 59.2,
+      "everCompoundFailurePct": 55.8,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 6.7
+    },
+    {
+      "finalStablePct": 91.7,
+      "everAnyFailurePct": 48.3,
+      "everCompoundFailurePct": 48.3,
+      "chronicFailurePct": 2.5,
+      "everDisplacedPct": 9.2
+    },
+    {
+      "finalStablePct": 93.3,
+      "everAnyFailurePct": 46.7,
+      "everCompoundFailurePct": 43.3,
+      "chronicFailurePct": 5,
+      "everDisplacedPct": 10
+    }
+  ]
+}

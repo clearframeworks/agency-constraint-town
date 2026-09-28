@@ -1,0 +1,13 @@
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+.env*
+!.env.example
+.vercel/
+coverage/
+AGENTS.md
+CLAUDE.md
+
+.vercel
+.env*
